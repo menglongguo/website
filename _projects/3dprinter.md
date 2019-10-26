@@ -7,7 +7,7 @@ order: 85
 ---
 
 
-![printer](/assets/images/printer.jpg)
+![printer](/website/assets/images/printer.jpg)
 
 ---
 
@@ -25,6 +25,6 @@ Features:
 
 ### Example prints
 
-![pulleys](/assets/images/pulleys.jpg)
+![pulleys](/website/assets/images/pulleys.jpg)
 
-([pulleys](https://www.thingiverse.com/thing:545345) printed in ABS for my [electric longboard](/projects/longboard), right side is smoothed with acetone)
+([pulleys](https://www.thingiverse.com/thing:545345) printed in ABS for my [electric longboard](/website/projects/longboard), right side is smoothed with acetone)
