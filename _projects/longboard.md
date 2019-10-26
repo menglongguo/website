@@ -13,7 +13,7 @@ I spent most of my junior and senior years of high school designing and building
 
 ---
 
-![longboard_photo](/assets/images/longboardv2.png)
+![longboard_photo](/website/assets/images/longboardv2.png)
 
 ### Features
 - single reduction drivetrain powered by two 270Kv brushless outrunners
@@ -28,24 +28,24 @@ I spent most of my junior and senior years of high school designing and building
 
 ### Remote
 
-<div class="stlwv2-model" data-model-url="/assets/models/longboard_remote.stl"></div>
+<div class="stlwv2-model" data-model-url="/website/assets/models/longboard_remote.stl"></div>
 
 I developed a wireless remote to control my longboard. It charges over USB, and contains a 900mAh lithium battery that lasts for 36+ hours of use.
 
 The electronics were designed in Altium and built around an ATmega32u4 MCU/nRF24L01+ 2.4Ghz wireless transciever IC.
 
-![remote](/assets/images/remote.png)
+![remote](/website/assets/images/remote.png)
 
 ---
 
 ABS + Delrin drive pulleys:
 
-![longboard_photo](/assets/images/v2pulleys.png)
+![longboard_photo](/website/assets/images/v2pulleys.png)
 
 Motor mount machining (Haas CNC mill + Inventor HSM):
 
-![motor mount machining fixturing](/assets/images/longboard_machining_fixturing.jpg)
-![motor mount machining done](/assets/images/longboard_machining_done.jpg)
+![motor mount machining fixturing](/website/assets/images/longboard_machining_fixturing.jpg)
+![motor mount machining done](/website/assets/images/longboard_machining_done.jpg)
 
 ---
 
