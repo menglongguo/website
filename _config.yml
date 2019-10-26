@@ -17,9 +17,10 @@ title: Menglong Guo
 email: m.guo@berkeley.edu
 description: > # this means to ignore newlines until "baseurl:"
   My name's Brent and this is my website!
-baseurl: "/website" # the subpath of your site, e.g. /blog
 # baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://menglongguo.github.io/website" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://menglongguo.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "/website" # the subpath of your site, e.g. /blog
+source: website
 
 collections:
   projects:
@@ -39,8 +40,6 @@ defaults:
       type: projects
     values:
       layout: project
-
-source: website
 
 # Build settings
 markdown: kramdown
