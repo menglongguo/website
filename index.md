@@ -28,7 +28,7 @@ BS Mechanical Engineering 2015-2018 @ UC Berkeley
 <script>
 $(function() {
     var email = '';
-    email += 'brentyi';
+    email += 'm.guo';
     email += '@berkeley.edu';
     // $('#email').attr('href', 'mailto:' + email);
     $('#email').text(email);
