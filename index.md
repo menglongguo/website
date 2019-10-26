@@ -2,14 +2,15 @@
 layout: home
 ---
 
-# Brent Yi
-BA Computer Science 2019 @ UC Berkeley
+# Menglong Guo
+BS Mechanical Engineering 2015-2018 @ UC Berkeley
 <br />
 <span id="email"></span>
 
-[Github](https://github.com/brentyi){:target="_blank"}
+<!-- [Github](https://github.com/brentyi){:target="_blank"}
+-->
 &nbsp;&bull;&nbsp;
-[LinkedIn](https://linkedin.com/in/brentyi){:target="_blank"}
+[LinkedIn](https://www.linkedin.com/in/menglong-guo-268aab175/){:target="_blank"}
 
 ----
 
@@ -33,3 +34,4 @@ $(function() {
     $('#email').text(email);
 });
 </script>
+
