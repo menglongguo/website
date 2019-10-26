@@ -7,7 +7,7 @@ order: 91
 stlwv2_models: yes
 ---
 
-<div class="stlwv2-model" data-model-url="/assets/models/longboard.stl"></div>
+<div class="stlwv2-model" data-model-url="/website/assets/models/longboard.stl"></div>
 
 I spent most of my junior and senior years of high school designing and building a motorized longboard.
 
