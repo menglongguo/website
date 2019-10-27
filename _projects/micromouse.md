@@ -1,10 +1,11 @@
 ---
-title: *Blue*- A Low-Cost 7 DOF Arm and Gripper
+title: Blue- A Low-Cost 7 DOF Arm and Gripper
 year: Spring17- Spring19
 order: 105
 stlwv2_models: no
 type: research
 ---
+
 <iframe width="560" height="315" src="https://www.youtube.com/embed/3JgtpOue68Y" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 <iframe src="https://drive.google.com/file/d/1LC0DirgkaY__70R6G0JBzAUYHXj9ZpEU/preview"></iframe>
