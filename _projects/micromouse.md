@@ -1,5 +1,5 @@
 ---
-title: Blue Robot: Low Cost 7 DOF Arm
+title: Blue Robot- Low Cost 7 DOF Arm
 year: 2016
 order: 105
 stlwv2_models: no
