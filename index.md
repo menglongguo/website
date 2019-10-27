@@ -13,7 +13,6 @@ BS Mechanical Engineering 2015-2018 @ UC Berkeley
 [LinkedIn](https://www.linkedin.com/in/menglong-guo-268aab175/){:target="_blank"}
 
 ----
-
 ## Research Projects and Papers
 <ul>
 {%- assign sorted_projects = site.projects | sort:"order" | reverse -%}
