@@ -1,9 +1,9 @@
 ---
 title: Surgical Tool Change End Effector
-<!-- 
+
 brief: An STM32-based lithium battery safety, charging, & balancing solution.
 thumbnail: /assets/images/thumbnail_bms.png
--->
+
 year: Fall15 - Spring16
 order: 92
 ---
