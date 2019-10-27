@@ -22,7 +22,7 @@ To do this, we cover the basics of:
 - Feedback control (PID)
 - Search algorithms
 
----
+
 <!-- 
 
 *Blue* is a low-cost, human-size, and compliant 7 degree of freedom arm with a 2kg payload.
@@ -41,7 +41,7 @@ The work was published in the International Conference on Robotics and Automatio
 
 
 
-
+-->
 Between 2016 and 2019, I helped design and teach a 2-unit robotics [DeCal](https://decal.berkeley.edu/courses/4635) course at UC Berkeley.
 The course guides students with little to no technical background through the process of building and programming a "Micromouse" robot car, which attempts to autonomously solve a maze.
 To do this, we cover the basics of:
@@ -85,3 +85,4 @@ Main control PCB design:
 - [Spring 2018 Class Photos](https://photos.app.goo.gl/H12PfdtpopbzCXpv5)
 - [Fall 2018 Class Photos](https://photos.app.goo.gl/9azAu6kgRJ9qmyVQA)
 - [Spring 2019 Class Photos](https://photos.app.goo.gl/3cusFcwXWEnJS4Y16)
+
