@@ -23,7 +23,7 @@ To do this, we cover the basics of:
 - Search algorithms
 
 ---
-
+<!-- 
 
 *Blue* is a low-cost, human-size, and compliant 7 degree of freedom arm with a 2kg payload.
 It was developed from scratch in the [Robot Learning Lab](http://rll.berkeley.edu/)under [Professor Pieter Abbeel](https://people.eecs.berkeley.edu/~pabbeel/) as a low-cost platform to democratize robotic research.
