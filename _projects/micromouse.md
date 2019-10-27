@@ -1,11 +1,11 @@
 ---
 title: Blue Robot- Low Cost 7 DOF Arm and Gripper
-year: Spring 2017- Spring 2019
+year: Spring17- Spring19
 order: 105
 stlwv2_models: no
 ---
 
-![micromouse in maze](/assets/images/micromouse_maze.jpg)
+![micromouse in maze](/website/assets/images/micromouse_maze.jpg)
 
 Between 2016 and 2019, I helped design and teach a 2-unit robotics [DeCal](https://decal.berkeley.edu/courses/4635) course at UC Berkeley.
 The course guides students with little to no technical background through the process of building and programming a "Micromouse" robot car, which attempts to autonomously solve a maze.
@@ -25,7 +25,7 @@ To do this, we cover the basics of:
 In addition to developing much of our labs and course material, I also designed a standard robot hardware kit.
 These cost around $30 each, but are provided to students at no cost to assemble and program.
 
-![micromouse robot](/assets/images/micromouse_robot.jpg)
+![micromouse robot](/website/assets/images/micromouse_robot.jpg)
 
 Each kit contains:
 - Custom lasercut wood chassis

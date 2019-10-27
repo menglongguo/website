@@ -1,11 +1,11 @@
 ---
 title: VR for Design
-year: 2016
+year: Spring19
 order: 100
 stlwv2_models: yes
 ---
 
-![hexrobot gif](/assets/images/sparky_animated.gif)
+![hexrobot gif](/website/assets/images/sparky_animated.gif)
 
 For our final project in UC Berkeley's *Introduction to Prototyping & Fabrication* course, my partner and I set out to design an extremely low cost (~$60) [RHex](https://en.wikipedia.org/wiki/Rhex)-style robot.
 
@@ -23,7 +23,7 @@ The chassis is constructed out of three pieces of 1/4" plywood, and the motorize
 
 ### Electronics
 
-![hexrobot electronics](/assets/images/rhex_electronics.jpg)
+![hexrobot electronics](/website/assets/images/rhex_electronics.jpg)
 
 Each leg module contains a custom 14-bit absolute encoder board (linked below), which communicates to a central microcontroller over I2C.
 

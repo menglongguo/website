@@ -1,12 +1,12 @@
 ---
 title: Optimizing Surfaces for Grasping
-year: 2016
+year: Summer16 - Spring17
 order: 99
 latex: yes
 stlwv2_models: yes
 ---
 
-![drawing_animated](/assets/images/drawing_animated.gif){: width="100%"}
+![drawing_animated](/website/assets/images/drawing_animated.gif){: width="100%"}
 
 For our midterm project in UC Berkeley's *Introduction to Prototyping & Fabrication* course, my partner and I designed, built, and programmed a 2D plotter with a polar coordinate system.
 
@@ -14,7 +14,7 @@ For our midterm project in UC Berkeley's *Introduction to Prototyping & Fabricat
 
 <div class="stlwv2-model" data-model-url="/assets/models/drawingmachine.stl"></div>
 
-![pen_holder](/assets/images/penholder.jpg)
+![pen_holder](/website/assets/images/penholder.jpg)
 
 ### Mechanical Design
 
@@ -22,7 +22,7 @@ We constructed our plotter out of 1/4" plywood, and used standard NEMA17 stepper
 
 ---
 
-![drawing_machine](/assets/images/plotter.jpg)
+![drawing_machine](/website/assets/images/plotter.jpg)
 
 ### Software
 
