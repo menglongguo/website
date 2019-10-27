@@ -5,6 +5,7 @@ order: 105
 stlwv2_models: no
 type: research
 ---
+![micromouse in maze](/website/assets/images/micromouse_maze.jpg)
 
 *Blue* is a low-cost, human-size, and compliant 7 degree of freedom arm with a 2kg payload.
 It was developed from scratch in the [Robot Learning Lab](http://rll.berkeley.edu/)under [Professor Pieter Abbeel](https://people.eecs.berkeley.edu/~pabbeel/) as a low-cost platform to democratize robotic research.
@@ -15,6 +16,7 @@ The work was published in the International Conference on Robotics and Automatio
 
 <iframe src="https://drive.google.com/file/d/1LC0DirgkaY__70R6G0JBzAUYHXj9ZpEU/preview"></iframe>
 
+---
 
 
 
@@ -23,7 +25,6 @@ The work was published in the International Conference on Robotics and Automatio
 
 
 
-![micromouse in maze](/website/assets/images/micromouse_maze.jpg)
 
 Between 2016 and 2019, I helped design and teach a 2-unit robotics [DeCal](https://decal.berkeley.edu/courses/4635) course at UC Berkeley.
 The course guides students with little to no technical background through the process of building and programming a "Micromouse" robot car, which attempts to autonomously solve a maze.
