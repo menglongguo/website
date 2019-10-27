@@ -1,6 +1,6 @@
 ---
-title: Blue Robot- Low Cost 7 DOF Arm
-year: 2016
+title: Blue Robot- Low Cost 7 DOF Arm and Gripper
+year: Spring 2017- Spring 2019
 order: 105
 stlwv2_models: no
 ---
