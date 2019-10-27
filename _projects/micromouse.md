@@ -4,6 +4,8 @@ year: Spring17- Spring19
 order: 105
 stlwv2_models: no
 ---
+<iframe width="560" height="315" src="https://www.youtube.com/embed/3JgtpOue68Y" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 <iframe src="https://drive.google.com/file/d/1LC0DirgkaY__70R6G0JBzAUYHXj9ZpEU/preview"></iframe>
 
 ![micromouse in maze](/website/assets/images/micromouse_maze.jpg)
