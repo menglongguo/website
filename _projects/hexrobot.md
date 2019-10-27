@@ -1,5 +1,5 @@
 ---
-title: Hexapedal Robot
+title: VR for Design
 year: 2016
 order: 100
 stlwv2_models: yes

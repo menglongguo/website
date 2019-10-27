@@ -14,7 +14,7 @@ BS Mechanical Engineering 2015-2018 @ UC Berkeley
 
 ----
 
-## Selected Projects
+## Research Projects and Papers
 <ul>
 {%- assign sorted_projects = site.projects | sort:"order" | reverse -%}
 {%- for project in sorted_projects -%}

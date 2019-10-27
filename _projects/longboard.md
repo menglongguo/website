@@ -1,5 +1,5 @@
 ---
-title: Motorized Longboard
+title: Co-Robotic Precision Irrigation Device
 brief: A skateboard powered by two brushless DC motors.
 thumbnail: /assets/images/thumbnail_longboard.png
 year: 2014

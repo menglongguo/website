@@ -1,5 +1,5 @@
 ---
-title: Drawing Machine
+title: Optimizing Surfaces for Grasping
 year: 2016
 order: 99
 latex: yes
