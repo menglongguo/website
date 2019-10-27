@@ -3,6 +3,7 @@ title: VR for Design
 year: Spring19
 order: 100
 stlwv2_models: yes
+type: research
 ---
 
 ![hexrobot gif](/website/assets/images/sparky_animated.gif)

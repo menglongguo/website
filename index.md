@@ -18,7 +18,7 @@ BS Mechanical Engineering 2015-2018 @ UC Berkeley
 <ul>
 {%- assign sorted_projects = site.projects | sort:"order" | reverse -%}
 {%- for project in sorted_projects -%}
-  {% if project.type== "Art" %}
+  {% if project.type== "research" %}
   	<li>
     	<a href="{{project.url | relative_url}}">{{project.title}}</a>
     	<time datetime="{{project.year}}">{{project.year}}</time>
@@ -31,10 +31,12 @@ BS Mechanical Engineering 2015-2018 @ UC Berkeley
 <ul>
 {%- assign sorted_projects = site.projects | sort:"order" | reverse -%}
 {%- for project in sorted_projects -%}
-  <li>
-    <a href="{{project.url | relative_url}}">{{project.title}}</a>
-    <time datetime="{{project.year}}">{{project.year}}</time>
-  </li>
+  {% if project.type== "class" %}
+  	<li>
+    	<a href="{{project.url | relative_url}}">{{project.title}}</a>
+    	<time datetime="{{project.year}}">{{project.year}}</time>
+  	</li>
+  {% endif %}
 {%- endfor -%}
 </ul>
 

@@ -4,6 +4,7 @@ year: Summer16 - Spring17
 order: 99
 latex: yes
 stlwv2_models: yes
+type: research
 ---
 
 ![drawing_animated](/website/assets/images/drawing_animated.gif){: width="100%"}

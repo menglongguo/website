@@ -5,6 +5,7 @@ thumbnail: /assets/images/thumbnail_longboard.png
 year: Spring16
 order: 91
 stlwv2_models: yes
+type: research
 ---
 
 <div class="stlwv2-model" data-model-url="/website/assets/models/longboard.stl"></div>

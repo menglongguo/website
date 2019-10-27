@@ -1,9 +1,9 @@
 ---
-title: Blue- Low Cost 7 DOF Arm and Gripper
+title: Class Project 1
 year: Spring17- Spring19
 order: 105
 stlwv2_models: no
-type: research
+type: class
 ---
 <iframe width="560" height="315" src="https://www.youtube.com/embed/3JgtpOue68Y" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 

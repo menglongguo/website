@@ -6,6 +6,7 @@ thumbnail: /assets/images/thumbnail_bms.png
 
 year: Fall15 - Spring16
 order: 92
+type: research
 ---
 
 ![bms model](/website/assets/images/bms.png)
