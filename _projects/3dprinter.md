@@ -1,8 +1,8 @@
 ---
 title: Research 1
 brief: A custom 3D printer built on the open-source RepRap project.
-thumbnail: /assets/images/thumbnail_3dprinter.jpg
-year: 2014
+thumbnail: /website/assets/images/thumbnail_3dprinter.jpg
+year: 2018
 order: 85
 ---
 
