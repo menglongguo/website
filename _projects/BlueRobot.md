@@ -1,5 +1,5 @@
 ---
-title: *Blue*- A Low-Cost 7 DOF Arm and Grippe
+title: Blue- A Low-Cost 7 DOF Arm and Grippe
 year: Spring17- Spring19
 order: 104
 stlwv2_models: no

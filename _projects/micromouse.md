@@ -6,25 +6,6 @@ stlwv2_models: no
 type: research
 ---
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/3JgtpOue68Y" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-<iframe src="https://drive.google.com/file/d/1LC0DirgkaY__70R6G0JBzAUYHXj9ZpEU/preview"></iframe>
-
-![micromouse in maze](/website/assets/images/micromouse_maze.jpg)
-
-Between 2016 and 2019, I helped design and teach a 2-unit robotics [DeCal](https://decal.berkeley.edu/courses/4635) course at UC Berkeley.
-The course guides students with little to no technical background through the process of building and programming a "Micromouse" robot car, which attempts to autonomously solve a maze.
-To do this, we cover the basics of:
-- Arduino programming, C++
-- Motor control
-- Sensor reading: quadrature encoders, ToF distance sensors
-- Interrupts, ADCs, I2C
-- Robot localization & odometry
-- Feedback control (PID)
-- Search algorithms
-
-
-<!-- 
 
 *Blue* is a low-cost, human-size, and compliant 7 degree of freedom arm with a 2kg payload.
 It was developed from scratch in the [Robot Learning Lab](http://rll.berkeley.edu/)under [Professor Pieter Abbeel](https://people.eecs.berkeley.edu/~pabbeel/) as a low-cost platform to democratize robotic research.
