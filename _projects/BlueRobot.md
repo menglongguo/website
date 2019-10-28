@@ -72,8 +72,9 @@ These designs played with the tradeoffs between force-control vs durability and 
 
 The "strain gauge design" uses a strain gauge attached to a non-backdrivable dc motor.
 Although much lighter (a small motor), it was not backdrivabile (making it less safe) and not as durable (forces at finger tips directly transfer to motor).
+
 The cross section of design is shown below with a interactable 3D Cad model.
-![hexrobot electronics](/website/assets/images/rhex_electronics.jpg)
+![hexrobot electronics](/website/assets/images/Hand1.jpg)
 <div class="stlwv2-model" data-model-url="/website/assets/models/longboard_remote.stl"></div>
 <!-- find and make stl -->
 
@@ -86,7 +87,7 @@ A ball screw gives more backdrivability with a more transparent transmission com
 However, the total weight was around 1100 grams compare to 660 grams of *Blue*, lowering the final payload of the arm.
 
 The cross section is shown below with a interactable 3D Cad model.
-![hexrobot electronics](/website/assets/images/rhex_electronics.jpg)
+![hexrobot electronics](/website/assets/images/Hand2.jpg)
 <div class="stlwv2-model" data-model-url="/website/assets/models/longboard_remote.stl"></div>
 <!-- find and make stl -->
 
