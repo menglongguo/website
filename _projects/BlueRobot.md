@@ -28,9 +28,21 @@ I was in charge of the end effector on the team.
 Seeing that there wasn't a gripper that fulfills all of *blue's* requirements for this type of research application, I set out to design and manufacture one.
 
 The design constraints included:
-- Low cost: A less-expensive hand will lower the barrier of entry for research. The final Bill of Material cost was $330.
-- Durable: Robotic experiements sees a lot of collisions between end effector and environment. The HALT testing shows it could withstand 50,000 low speed impact collisions and 4,000 high speed collisions (video below).
-- 
+- Low-cost: 
+A cheaper hand lowers the barrier of entry for research. The final Bill of Material cost was $330.
+- Durable: 
+Research sees a lot of collisions between end effector and environment. The HALT testing shows it could withstand 50,000 low speed impact collisions and 4,000 high speed collisions (video below).
+- Repeatable:
+The gripper should be consistent through its life cycle. *Blue* was functional after 40,000 cycles of repeated grasping with no loss of performance.
+- Lightweight:
+The lighter the gripper the greater the payload can be. The final weight is 660 grams.
+- High Grip Force:
+To be able to handle objects around 2kg, a high grip force is required. *Blue's* nominal grip force is 100N with a peak at 150N.
+- Force control:
+Accurate feedforward force control is needed for handling of delicate objects.
+- Human-Safe:
+Safehandling encourage operation around humans. The gripper was designed with curved surfaces and no pinchpoints for ease of handling.
+
 
 A model of the gripper with inner mechanism shown:
 <div class="stlwv2-model" data-model-url="/website/assets/models/longboard_remote.stl"></div>
@@ -39,8 +51,41 @@ A model of the gripper with inner mechanism shown:
 
 In hopes of growing the field of research in robotic grippers,we open-sourced the designs [here](https://berkeleyopengrippers.github.io/).
 The research work was published in IEEE's Conference on Automation Science and Engineering and a copy is shown below:
-
 <iframe src="https://drive.google.com/file/d/1LC0DirgkaY__70R6G0JBzAUYHXj9ZpEU/preview"></iframe>
+
+Footage of durability testing of the robot shown below:
+<iframe width="560" height="315" src="https://www.youtube.com/embed/3JgtpOue68Y" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+---
+
+### Alternatives Designs using a Strain Gauge
+
+In the process of designing the *Blue* Gripper, other designs were made along the way.
+These designs played with the tradeoffs between force-control vs durability and force-control vs weight using different actuation modalities.
+
+The "strain gauge design" uses a strain gauge attached to a non-backdrivable dc motor.
+Although much lighter (a small motor), it was not backdrivabile (making it less safe) and not as durable (forces at finger tips directly transfer to motor).
+The cross section of design is shown below with a interactable 3D Cad model.
+![hexrobot electronics](/website/assets/images/rhex_electronics.jpg)
+<div class="stlwv2-model" data-model-url="/website/assets/models/longboard_remote.stl"></div>
+<!-- find and make stl -->
+
+
+
+---
+### Alternatives Designs using a Ball screw
+
+
+The "Ball screw design" uses a ball screw instead of the lead screw with a similar form factor as *Blue*.
+A ball screw gives more backdrivability with a more transparent transmission compare to a lead screw.
+However, the total weight was around 1100 grams compare to 660 grams of *Blue*, lowering the final payload of the arm.
+
+The cross section is shown below with a interactable 3D Cad model.
+![hexrobot electronics](/website/assets/images/rhex_electronics.jpg)
+<div class="stlwv2-model" data-model-url="/website/assets/models/longboard_remote.stl"></div>
+<!-- find and make stl -->
+
+
 
 ---
 
@@ -51,4 +96,3 @@ The research work was published in IEEE's Conference on Automation Science and E
 - [Berkeley Open Arms](https://www.berkeleyopenarms.org/)
 - [Paper Arxiv link](https://arxiv.org/abs/1904.03815)
 - [Berkeley Open Grippers](https://berkeleyopengrippers.github.io/)
-- 
