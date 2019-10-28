@@ -13,7 +13,7 @@ It was developed from scratch in the [Robot Learning Lab](http://rll.berkeley.ed
 
 The work was published in the International Conference on Robotics and Automation (ICRA 2019), the Arxiv link is [here](https://arxiv.org/abs/1904.03815) and a copy is shown below: 
 
-<iframe src="https://drive.google.com/file/d/1LC0DirgkaY__70R6G0JBzAUYHXj9ZpEU/preview"></iframe>
+<iframe src="https://drive.google.com/file/d/1BF0iX-mr0g-xxwFFcOnAoNCMtre2P8h1/preview"></iframe>
 
 ---
 
