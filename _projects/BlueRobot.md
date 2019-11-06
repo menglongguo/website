@@ -52,7 +52,7 @@ Safehandling encourage operation around humans. The gripper was designed with cu
 
 
 A model of the gripper with inner mechanism shown:
-<div class="stlwv2-model" data-model-url="/website/assets/models/BlueHand.STL"></div>
+<div class="stlwv2-model" data-model-url="/website/assets/models/Compressed.STL"></div>
 <!-- find and make stl -->
 
 
