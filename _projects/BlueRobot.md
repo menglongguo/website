@@ -88,7 +88,7 @@ However, the total weight was around 1100 grams compare to 660 grams of *Blue*, 
 
 The cross section is shown below with a interactable 3D Cad model.
 ![hexrobot electronics](/website/assets/images/Hand2.jpg)
-<div class="stlwv2-model" data-model-url="/website/assets/models/longboard_remote.stl"></div>
+<div class="stlwv2-model" data-model-url="/website/assets/models/BallScrewHandGood.STL"></div>
 <!-- find and make stl -->
 
 
