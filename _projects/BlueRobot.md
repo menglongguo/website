@@ -52,7 +52,7 @@ Safehandling encourage operation around humans. The gripper was designed with cu
 
 
 A model of the gripper with inner mechanism shown:
-<div class="stlwv2-model" data-model-url="/website/assets/models/WebsiteHandBlue.STL"></div>
+<div class="stlwv2-model" data-model-url="/website/assets/models/BlueHand.STL"></div>
 <!-- find and make stl -->
 
 
@@ -75,7 +75,7 @@ Although much lighter (a small motor), it was not backdrivabile (making it less 
 
 The cross section of design is shown below with a interactable 3D Cad model.
 ![hexrobot electronics](/website/assets/images/Hand1.jpg)
-<div class="stlwv2-model" data-model-url="/website/assets/models/longboard_remote.stl"></div>
+<div class="stlwv2-model" data-model-url="/website/assets/models/StrainHand.STL"></div>
 <!-- find and make stl -->
 
 ---
