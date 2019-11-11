@@ -6,7 +6,7 @@ stlwv2_models: yes
 type: research
 ---
 
-![hexrobot gif](/website/assets/images/sparky_animated.gif)
+![vr gif](/website/assets/images/YoutubeVr_1.gif)
 
 For our final project in UC Berkeley's *Introduction to Prototyping & Fabrication* course, my partner and I set out to design an extremely low cost (~$60) [RHex](https://en.wikipedia.org/wiki/Rhex)-style robot.
 
