@@ -36,7 +36,7 @@ This method has a number of potential advantages:
 - Have interactable design reviews with multiple parties
 
 With every iteration cycle, these benefits get realized over and over.
-As 3D printing has become an ubiquitous prototyping tool in many industries, hopefully this can be a new design/interaction tool in many fields.
+Similar to how 3D printing has become an ubiquitous prototyping tool in many industries, hopefully this can be a new design/interaction tool in many fields.
 
 ---
 
