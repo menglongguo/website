@@ -8,57 +8,51 @@ type: research
 
 ![vr gif](/website/assets/images/YoutubeVr_1.gif)
 
-For our final project in UC Berkeley's *Introduction to Prototyping & Fabrication* course, my partner and I set out to design an extremely low cost (~$60) [RHex](https://en.wikipedia.org/wiki/Rhex)-style robot.
+The *VR for Design* research project is to develop and test a new pipeline for designers to interact and iterate with their models. 
+This research is done under [Professor Bjoern Hartmann](https://people.eecs.berkeley.edu/~bjoern/) and the [Jacobs Institute for Design](https://jacobsinstitute.berkeley.edu/). 
 
 ---
 
-<div class="stlwv2-model" data-model-url="/assets/models/hexrobot_full.stl"></div>
 
-### Mechanical Design
+### Concept
 
-Mechanical design was done with an emphasis on simplicity: we only needed to fabricate 5 unique parts!
+As rapid prototyping tools and spaces increase, designers build more complicated assemblies with many moving parts.
+The only way to interact with these designs is to build a physical prototype.
 
-The chassis is constructed out of three pieces of 1/4" plywood, and the motorized leg modules are printed in ABS using a consumer-grade 3D printer. The current version of the legs are lined with 5mm polyurethane timing belt (teeth outwards), which acts as a cheap and wear-resistant tread.
+![Design Workflow](/website/assets/images/Vr4designFlow.JPG)
 
----
+This project attempts to provide an alternative pathway to interact with designs through virtual reality.
+The goal is to create a virtual representation with all the proper physics, material properties, and moving parts you would expect from a physical prototype.
 
-### Electronics
 
-![hexrobot electronics](/website/assets/images/rhex_electronics.jpg)
+This method has a number of potential advantages:
 
-Each leg module contains a custom 14-bit absolute encoder board (linked below), which communicates to a central microcontroller over I2C.
+- Accelerates design cycle by saving fabrication time
 
-A central control PCB was designed to co-locate:
-- three TB6612 dual h-bridge driver ICs (for driving 6 individual leg motors)
-- an ADXL345 3-axis accelerometer for orientation detection
-- an MP1584 5V/3A buck converter (for powering peripherals)
-- an N-fet-based electronic power switch
-- I2C output connectors for our absolute encoders
-- 10-bit filtered battery voltage measurement
-- ATmega328P-based Arduino Nano microcontroller
+- Lowers the barrier of entry for design by saving cost
 
----
+- Test out ergonomic issues and relative size that you can't visualize from a screen
 
-### Firmware
+- Have interactable design reviews with multiple parties
 
-All of the code for our robot was built around the Arduino platform in C++.
-
-It's made of a few main components:
-- an open-loop gait controller for generating synchronized leg trajectories in an alternating tripod gait
-- six local joint controllers: these are simple PD loops w/ velocity feedforwards
-- a BLE interface for remote monitoring and teleoperation
-- a set of dynamically configurable settings which can be pushed to & pulled from the EEPROM (primarily for control loop tuning on the fly)
+With every iteration cycle, these benefits get realized over and over.
+As 3D printing has become an ubiquitous prototyping tool in many industries, hopefully this can be a new design/interaction tool in many fields.
 
 ---
 
-### Links
+### Implementation
 
-Videos:
-- [Final project video](https://www.youtube.com/watch?v=aiBIEI0JHwY)
-- [Earlier prototype video](https://www.youtube.com/watch?v=FYNiEJGiTPM)
+In a team of two, we implemented a pipeline that analyze the joint information from Fusion 360 CAD environment, re-configures the model with Unity's joint, and incorporates the user's movement into meaningful interaction in VR. 
 
-Source code and design files:
-- [Firmware](https://github.com/brentyi/sparky_firmware)
-- [Mechanical design](https://github.com/nanditapiyer/sparky_mechanical)
-- [Main control PCB design](https://github.com/brentyi/sparky_electronics)
-- [Absolute encoder PCB design](https://github.com/brentyi/as5048b_breakout)
+![workflow](/website/assets/images/vrWorkflow.png)
+
+The CAD program chosen was [Fusion 360](https://www.autodesk.com/products/fusion-360/overview#banner) for its more ubiquity amongst students (free software) and beginner friendly environment.
+
+![api](/website/assets/images/Vr4designAPI.JPG)
+
+A lot of the engineering effort went into using the information available through the [Fusion API](https://help.autodesk.com/view/fusion360/ENU/?guid=GUID-7B5A90C8-E94C-48DA-B16B-430729B734DC) to create geometric data to re-configure the joints in Unity.
+The program must be robust enough to handle all the edge cases when there was not enough information while minimizing user input to make the program as seemless as possible. 
+
+Check out the video below of how the program was used to help iterate on a standing desk design:
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/BJeVW7IxlvY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
