@@ -8,8 +8,10 @@ This research was on a novel surgical tool device for supervised autonomous surg
 The work was done under Professor [Ken Goldberg's](https://goldberg.berkeley.edu/) Automation Lab ([Autolab](http://autolab.berkeley.edu/)).
 
 ![toolchange gif](/website/assets/images/ToolChange500w.gif)
+
 The part I designed was a tool change end effector that would facilitate automated switching between instruments.
 
+This work was published in IEEE's International Conference on Automation Science and Engineering ([Case 2016](https://case2016.org/)).
 <iframe src="https://drive.google.com/file/d/1-S85-cmj0PrY7fJXdeeDm79jxUIi20RZ/preview"></iframe>
 
 
