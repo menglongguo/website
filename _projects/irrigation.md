@@ -9,6 +9,6 @@ type: research
 ---
 <iframe src="https://drive.google.com/file/d/12ypk1qmx5Z6cz8-U_-WBLpgAvT6WvO8Q/preview"></iframe>
 
-![toolchange gif](/website/assets/images/DateVid.gif)
+![Ag device gif](/website/assets/images/DateVid.gif)
 
 
