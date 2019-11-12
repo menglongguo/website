@@ -15,7 +15,7 @@ This research is done under [Professor Bjoern Hartmann](https://people.eecs.berk
 ---
 
 
-### Concept
+### Motivation and Concept
 
 As rapid prototyping tools and spaces increase, designers build more complicated assemblies with many moving parts.
 The only way to interact with these designs is to build a physical prototype.
