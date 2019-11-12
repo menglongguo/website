@@ -1,6 +1,6 @@
 ---
 title: Optimizing Surfaces for Grasping
-year: Summer16 - Spring17
+year: Summer 16 - Spring 17
 order: 99
 latex: yes
 stlwv2_models: yes

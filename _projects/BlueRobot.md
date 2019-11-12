@@ -1,6 +1,6 @@
 ---
 title: Blue- A Low-Cost 7 DOF Arm and Gripper
-year: Spring17- Spring19
+year: Spring 17 - Spring 19
 order: 104
 stlwv2_models: yes
 type: research
@@ -16,9 +16,10 @@ The work was published in the IEEE's International Conference on Robotics and Au
 
 <iframe src="https://drive.google.com/file/d/1BF0iX-mr0g-xxwFFcOnAoNCMtre2P8h1/preview"></iframe>
 
+<!--
 A model of the arm:
 <div class="stlwv2-model" data-model-url="/website/assets/models/longboard_remote.stl"></div>
-<!-- find and make stl -->
+ find and make stl -->
 
 ---
 ### Hand Design

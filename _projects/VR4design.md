@@ -1,6 +1,6 @@
 ---
 title: VR for Design
-year: Spring19
+year: Spring 19
 order: 100
 stlwv2_models: yes
 type: research
