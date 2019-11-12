@@ -48,7 +48,7 @@ Below shows the image analysis (using Matlab) that calculated the magnitude of t
 
 ![Vision System](/website/assets/images/visionSystem.jpg)
 
-After 60 grasping trials, the program aggregates the orientation linear and angular errors to compute a 90% success region where the adjustment can compensate for.
+After 60 grasping trials, the program aggregates the linear and angular orientation errors to compute a 90% success region where the adjustment can compensate for.
 
 ![Vision Side](/website/assets/images/sideTestsSuccess.jpg)
 
