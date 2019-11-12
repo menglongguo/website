@@ -12,4 +12,14 @@ type: research
 
 ![Ag device gif](/website/assets/images/DateVid.gif)
 
+![Date Full Device](/website/assets/images/DATE.jpg)
 
+![Date features](/website/assets/images/dateViews.jpg)
+
+![Date closeup](/website/assets/images/closeup.jpg)
+
+![Vision System](/website/assets/images/visionSystem.jpg)
+
+![Vision Side](/website/assets/images/sideTestsSuccess.jpg)
+
+![Vision Top](/website/assets/images/topTestsSuccess.jpg)

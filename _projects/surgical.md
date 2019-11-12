@@ -42,6 +42,7 @@ Below is couple distinct models in the design process to show the evolution of t
 <div class="stlwv2-model" data-model-url="/website/assets/models/ToolChangeModel.STL"></div>
 
 The final design incorporates a lot of features in a tight form factor that maximizes the ability of tool insertion and release.
+
 ![tool devices](/website/assets/images/ToolChangeFeature.jpg)
 
 
