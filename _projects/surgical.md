@@ -23,20 +23,25 @@ The goal is to replace certain portions of the pure tele-operations with supervi
 This paper introduces a novel interchangeable surgical end-effector system with a tool change device to save surgical time.
 
 ![tool devices](/website/assets/images/ToolChangeGeneral.jpg)
-Above is an image of all tools designed for the Intuitive Surgical System and below shows the various mounting strategies.
+Above is an image of all instruments designed for the Intuitive Surgical System and below shows the various mounting strategies.
 ![tool mounting](/website/assets/images/ToolChangeInterface.jpg)
 
 ---
 ### Design
 
 I worked primarily on the catch basin end effector attachment that facilitates instrument switching. 
+The goal is to have this end effector attachment go into the cavity to introduce an instrument or remove an instrument to allow for greater access to a wider array of tools during autonomous surgery.
 
 ![tool mounting](/website/assets/images/ToolChangeOverall.jpg)
-
+The blue arm introduces a new device (orange) that the orange arm then picks up.
+Below is the procedure of allignment, insertion, and release using the tool changer.
 ![tool devices](/website/assets/images/ToolChangeProcedure.jpg)
 
+In the process of iterating, many models were rapidly prototyped and tested.
+Below is couple distinct models in the design process to show the evolution of the design as it developed from concept to product.
 <div class="stlwv2-model" data-model-url="/website/assets/models/ToolChangeModel.STL"></div>
 
+The final design incorporates a lot of features in a tight form factor that maximizes the ability of tool insertion and release.
 ![tool devices](/website/assets/images/ToolChangeFeature.jpg)
 
 
