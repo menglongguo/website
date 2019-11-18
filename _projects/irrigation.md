@@ -2,7 +2,7 @@
 title: Co-Robotic Precision Irrigation Device
 brief: A skateboard powered by two brushless DC motors.
 thumbnail: /assets/images/thumbnail_longboard.png
-year: Spring 16
+year: Fall 15 - Spring 16
 order: 91
 stlwv2_models: yes
 type: research
