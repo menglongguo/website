@@ -18,21 +18,20 @@ The work was done under Professor [Ken Goldberg's](https://goldberg.berkeley.edu
 
 <iframe src="https://drive.google.com/file/d/1fUTLI-Pb5excH_t0La6Q3xOpYoIvCiUJ/preview"></iframe>
 
+![setup gripper](/website/assets/images/setupGripper.jpg)
 
-![Date Full Device](/website/assets/images/testGrasps.jpg)
+![testing grasp](/website/assets/images/testGrasps.jpg)
 
-![Date Full Device](/website/assets/images/setupGripper.jpg)
+![molding process](/website/assets/images/moldingProcess.jpg)
 
-![Date Full Device](/website/assets/images/moldingProcess.jpg)
+![first round exploration](/website/assets/images/firstRound.jpg)
 
-![Date Full Device](/website/assets/images/firstRound.jpg)
+![second round exploration](/website/assets/images/secondRound.jpg)
 
-![Date Full Device](/website/assets/images/secondRound.jpg)
+![third round exploration](/website/assets/images/thirdRound.jpg)
 
-![Date Full Device](/website/assets/images/thirdRound.jpg)
+![final Numbers](/website/assets/images/finalNumbers.jpg)
 
-![Date Full Device](/website/assets/images/Yumi.jpg)
+![Yumi with objects](/website/assets/images/Yumi.jpg)
 
-![Date Full Device](/website/assets/images/finalNumbers.jpg)
-
-![Date Full Device](/website/assets/images/manyMolds.jpg)
+![so many molds](/website/assets/images/manyMolds.jpg)
