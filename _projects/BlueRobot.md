@@ -92,8 +92,6 @@ The cross section is shown below with a interactable 3D Cad model.
 <div class="stlwv2-model" data-model-url="/website/assets/models/BallScrewHandGood.STL"></div>
 <!-- find and make stl -->
 
-
-
 ---
 
 ### Links
