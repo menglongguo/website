@@ -8,6 +8,7 @@ type: class
 
 Outside of research and school, I enjoy making art and particularly enjoy trying out different forms & techniques.
 As a mechanical engineer and roboticist, I try to imbue as much art into the design process and the physcial objects.
+
 ---
 
 ![Reflections at Night](/website/assets/images/ReflectionP.jpg)
