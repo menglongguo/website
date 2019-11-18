@@ -26,7 +26,7 @@ BS Mechanical Engineering Fall 15 - Fall 18 @ UC Berkeley
 {%- endfor -%}
 </ul>
 
-## Class
+## Misc
 <ul>
 {%- assign sorted_projects = site.projects | sort:"order" | reverse -%}
 {%- for project in sorted_projects -%}
