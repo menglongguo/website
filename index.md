@@ -3,7 +3,7 @@ layout: home
 ---
 
 # Menglong Guo
-BS Mechanical Engineering Fall 15 - Fall 18 @ UC Berkeley
+BS Mechanical Engineering @ UC Berkeley (Fall 15 - Fall 18)
 <br />
 <span id="email"></span>
 
