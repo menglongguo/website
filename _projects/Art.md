@@ -1,6 +1,6 @@
 ---
 title: Artworks
-year: Spring17- Spring19
+year:   
 order: 104
 stlwv2_models: no
 type: class
@@ -13,10 +13,6 @@ As a mechanical engineer and roboticist, I try to imbue as much art into the des
 
 ![Reflections at Night](/website/assets/images/ReflectionP.jpg)
 
-![Horse Standing](/website/assets/images/Horse2MB.jpg)
-
-![Horse Galloping](/website/assets/images/HorseMB.jpg)
-
 ![Escher Hands](/website/assets/images/HandsPbrighter.jpg)
 
 ![Bird in Hand](/website/assets/images/BirdHandPbrighter.jpg)
@@ -28,4 +24,8 @@ As a mechanical engineer and roboticist, I try to imbue as much art into the des
 ![Duality of Mind](/website/assets/images/MindWCbrighter.jpg)
 
 ![Tranquility in Solitude](/website/assets/images/SolitudeCPbrighter.jpg)
+
+![Horse Standing](/website/assets/images/Horse2MB.jpg)
+
+![Horse Galloping](/website/assets/images/HorseMB.jpg)
 
