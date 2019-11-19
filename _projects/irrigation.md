@@ -8,7 +8,7 @@ stlwv2_models: yes
 type: research
 ---
 This research was on a novel co-robotic device that adjusts flow emitter valves for precision irrigation.
-The work was done under Professor [Ken Goldberg's](https://goldberg.berkeley.edu/) Automation Lab ([Autolab](http://autolab.berkeley.edu/)).
+The work was done under Professor [Ken Goldberg's](https://goldberg.berkeley.edu/) Automation Lab ([Autolab](http://autolab.berkeley.edu/)) in my 1st year at Berkeley.
 
 ![Ag device gif](/website/assets/images/DateVid.gif)
 

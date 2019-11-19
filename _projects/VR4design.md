@@ -9,6 +9,7 @@ type: research
 
 The *VR for Design* research project is to develop and test a new pipeline for designers to interact and iterate with their models. 
 This research is done under [Professor Bjoern Hartmann](https://people.eecs.berkeley.edu/~bjoern/) and the [Jacobs Institute for Design](https://jacobsinstitute.berkeley.edu/). 
+I worked on this in my 4th year at Berkeley alongside [James Smith](https://www.linkedin.com/in/jdsmithcoder/).
 
 ![vr gif](/website/assets/images/YoutubeVr_1.gif)
 

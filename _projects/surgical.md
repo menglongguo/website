@@ -6,7 +6,7 @@ type: research
 stlwv2_models: yes
 ---
 This research was on a novel surgical device for supervised autonomous surgeries.
-The work was done under Professor [Ken Goldberg's](https://goldberg.berkeley.edu/) Automation Lab ([Autolab](http://autolab.berkeley.edu/)).
+The work was done under Professor [Ken Goldberg's](https://goldberg.berkeley.edu/) Automation Lab ([Autolab](http://autolab.berkeley.edu/)) during my first year at Berkeley. 
 
 ![tool change gif](/website/assets/images/ToolChange500w.gif)
 

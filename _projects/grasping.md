@@ -8,7 +8,7 @@ type: research
 ---
 
 This research explores data-driven optimization of gripper jaw surfaces using rapid prototyping to manufacture many surfaces and an automated reset system to test the grippers.
-The work was done under Professor [Ken Goldberg's](https://goldberg.berkeley.edu/) Automation Lab ([Autolab](http://autolab.berkeley.edu/)).
+The work was done under Professor [Ken Goldberg's](https://goldberg.berkeley.edu/) Automation Lab ([Autolab](http://autolab.berkeley.edu/)) in my 2nd year of undergrad. 
 This work was the first time I led a research effort, we develop systems to test this idea and ultimately yielded the lab's primary gripper.
 
 The research was published in the IEEE's International Conference on Robotics and Automation ([ICRA 2017](http://www.icra2017.org/)) and a copy is shown below: 
