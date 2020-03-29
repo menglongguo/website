@@ -6,7 +6,7 @@ stlwv2_models: no
 type: class
 ---
 
-Outside of research and school, I enjoy making art and particularly enjoy trying out different forms & techniques.
+Outside of research and school, I enjoy the process of making art and trying out new mediums & techniques.
 As a mechanical engineer and roboticist, I try to imbue as much art into the design process and the physcial objects.
 
 ---
