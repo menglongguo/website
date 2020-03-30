@@ -21,9 +21,12 @@ The geneva drive was chosen to translate the motor's continuous motion into inte
 This allows for discrete loading and scraping actions in each stage.
 Below shows the diagram of each stage as the center motor spins.
 
+![Full](/website/assets/images/OreoDiagram.jpg)
+<!--
 ![Diagram1](/website/assets/images/OreoDiagram1corrected.JPG)
 
 ![Diagram2](/website/assets/images/OreoDiagram2corrected.JPG)
+-->
 
 This video shows the action of the device without a cookie loaded:
 <iframe width="560" height="315" src="https://www.youtube.com/embed/8SNxFFjuHM8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
