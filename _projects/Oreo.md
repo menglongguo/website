@@ -1,7 +1,7 @@
 ---
 title: Mechanism Class- Double Geneva Oreo Scraper
 year: Spring 17
-order: 106
+order: 105
 stlwv2_models: yes
 type: class
 ---
