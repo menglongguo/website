@@ -22,6 +22,7 @@ This allows for discrete loading and scraping actions in each stage.
 Below shows the diagram of each stage as the center motor spins.
 
 ![Diagram1](/website/assets/images/OreoDiagram1corrected.JPG)
+
 ![Diagram2](/website/assets/images/OreoDiagram2corrected.JPG)
 
 This video shows the action of the device without a cookie loaded:
@@ -38,4 +39,4 @@ Below is an interactable model and a exploded view:
 
 ![Oreo Exploded](/website/assets/images/OreoExploded.JPG)
 
-Overall, it was fun and challenging to design this device in a week even if it's for a silly purpose!
+Overall, it was a fun challenge to design this device in a week even if it's for a silly purpose!
