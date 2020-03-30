@@ -1,7 +1,7 @@
 ---
 title: Mechatronics Class- Automated 3D Print Remover
 year: Spring 18
-order: 102
+order: 107
 stlwv2_models: yes
 type: class
 ---
