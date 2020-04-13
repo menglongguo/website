@@ -7,12 +7,11 @@ BS Mechanical Engineering @ UC Berkeley (Fall 15 - Fall 18)
 <br />
 <span id="email"></span>
 
-<!-- [Github](https://github.com/brentyi){:target="_blank"}
--->
+
 &nbsp;&bull;&nbsp;
 [LinkedIn](https://www.linkedin.com/in/menglong-guo-268aab175/){:target="_blank"}
-
 ----
+
 ## Research Projects and Papers
 <ul>
 {%- assign sorted_projects = site.projects | sort:"order" | reverse -%}
@@ -26,7 +25,7 @@ BS Mechanical Engineering @ UC Berkeley (Fall 15 - Fall 18)
 {%- endfor -%}
 </ul>
 
-## Misc
+## Other
 <ul>
 {%- assign sorted_projects = site.projects | sort:"order" | reverse -%}
 {%- for project in sorted_projects -%}
