@@ -12,7 +12,7 @@ BS Mechanical Engineering @ UC Berkeley (Fall 15 - Fall 18)
 [LinkedIn](https://www.linkedin.com/in/menglong-guo-268aab175/){:target="_blank"}
 ----
 
-## Research Projects and Papers
+## Research and Papers
 <ul>
 {%- assign sorted_projects = site.projects | sort:"order" | reverse -%}
 {%- for project in sorted_projects -%}
@@ -25,7 +25,7 @@ BS Mechanical Engineering @ UC Berkeley (Fall 15 - Fall 18)
 {%- endfor -%}
 </ul>
 
-## Other
+## Projects
 <ul>
 {%- assign sorted_projects = site.projects | sort:"order" | reverse -%}
 {%- for project in sorted_projects -%}
@@ -34,6 +34,19 @@ BS Mechanical Engineering @ UC Berkeley (Fall 15 - Fall 18)
     	<a href="{{project.url | relative_url}}">{{project.title}}</a>
     	<time datetime="{{project.year}}">{{project.year}}</time>
   	</li>
+  {% endif %}
+{%- endfor -%}
+</ul>
+
+## Misc
+<ul>
+{%- assign sorted_projects = site.projects | sort:"order" | reverse -%}
+{%- for project in sorted_projects -%}
+  {% if project.type== "misc" %}
+    <li>
+      <a href="{{project.url | relative_url}}">{{project.title}}</a>
+      <time datetime="{{project.year}}">{{project.year}}</time>
+    </li>
   {% endif %}
 {%- endfor -%}
 </ul>

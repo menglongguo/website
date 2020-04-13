@@ -3,7 +3,7 @@ title: Artworks
 year:   
 order: 104
 stlwv2_models: no
-type: class
+type: misc
 ---
 
 In my free time, I enjoy the process of making art and trying out new mediums & techniques.
