@@ -10,6 +10,7 @@ BS Mechanical Engineering @ UC Berkeley (Fall 15 - Fall 18)
 
 &nbsp;&bull;&nbsp;
 [LinkedIn](https://www.linkedin.com/in/menglong-guo-268aab175/){:target="_blank"}
+
 ----
 
 ## Research and Papers
