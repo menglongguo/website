@@ -1,6 +1,6 @@
 ---
 title: Perpetual Calendar
-year:   
+year: Spring 19
 order: 108
 stlwv2_models: yes
 type: class
@@ -9,7 +9,7 @@ type: class
 ![Calendar Picture](/website/assets/images/CalendarCover.jpg)
 
 I built this calendar that cycles through dates mechanically as a fun side project. 
-It was my first woodworking experience and I used it to learn the nuances of choosing and shaping wood.
+It was my first woodworking experience and I used it to learn the nuances of choosing and shaping wood (I made it a week-long design sprint)!
 Check out the video below to see the calendar in action!
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/sazfCaEHkps?start=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
