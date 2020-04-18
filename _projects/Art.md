@@ -16,14 +16,12 @@ As a mechanical engineer and roboticist, I try to imbue as much art into the des
 *Copy of Drawing Hands*
 :  Sketching was the first form of art I learned.
 I always loved the theme of cycles and paradox, so I drew this copy of MC Esher's Drawing Hands (I think sometimes back in middle school).	
----
 
 
 
 ![Bird in Hand](/website/assets/images/BirdHandPbrighter.jpg)
 *Taking Flight*
 :  Just a simple sketch of bird taking flight (also was done in middle school).
----
 
 
 ![Colored Bird](/website/assets/images/BirdCPbrighter.jpg)
@@ -35,7 +33,8 @@ Color layering was a new and challenging feature in this medium (done sometime i
 
 ![Tranquility in Solitude](/website/assets/images/SolitudeCPbrighter.jpg)
 *Tranquility in Solitude*
-:  Yes, you can laugh at the title, I drew this when I was 11, so that was prime edgy teen age. 
+:  Yes, you can laugh at the title, I drew this when I was 11, so that was prime edgy teen years. 
+I still enjoy how calming it makes me feel. 
 
 
 ![Duality of Mind](/website/assets/images/MindWCbrighter.jpg)
@@ -57,19 +56,24 @@ This was my first attempt painting and I just remembered how long it took to wai
 :  Once a while, the Campanile Tower is showered in blue light for festival events.
 This was my attempt to capture the sight in colored pencil (done in freshman year of college).
 
-![3d Art 1](/website/assets/images/3dArt1.JPG)
-
 ![3d Art 2](/website/assets/images/3dArt2.JPG)
+![3d Art 1](/website/assets/images/3dArt1.JPG)
+*3D Printed Art*
+:  When I first learned how to 3D print, I had an idea that I could cad art.
+To get different colors, I would calculate and time each filament change.
+I enjoyed playing with this idea of art in the 3d printed medium!
+
+
 
 ![Horse Standing](/website/assets/images/Horse2MB.jpg)
 *Horse Standing #3*
 :  This was my first forray into Chinese painting and calligraphy. 
 Unlike many other mediums, you can't erase or cover up any stroke, you have to have the conviction and plan the moment your brush makes contact.
-Everything happens so quickly with each drawing taking about 5 minutes.
-This isn't a very good painting by any means but I was proud of it being the 3rd horse I ever drew.
+Everything happens very quickly (each drawing taking about 5 minutes) so it's very easy to see the level of one's brush technique. 
+This isn't a very good painting by any means but I was proud of it being the 3rd horse I ever painted.
 
 
 ![Horse Galloping](/website/assets/images/HorseMB.jpg)
 *Horse Galloping #4*
-:  I drew both of these in the junior year of college, and hopefully they mark the beginning of a lot of hardwork and practice.
+:  I painted both of these in the junior year of college, and hopefully they mark the beginning of a lot of hardwork and practice.
 
