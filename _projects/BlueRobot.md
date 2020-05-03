@@ -76,7 +76,7 @@ The "strain gauge design" uses a strain gauge attached to a non-backdrivable dc 
 Although much lighter (a small motor), it was not backdrivabile (making it less safe) and not as durable (forces at finger tips directly transfer to motor).
 
 The cross section of design is shown below with a interactable 3D Cad model.
-![hexrobot electronics](/website/assets/images/Hand1.jpg)
+![Hand1](/website/assets/images/04Hand1.jpg)
 <div class="stlwv2-model" data-model-url="/website/assets/models/StrainHand.STL"></div>
 <!-- find and make stl -->
 
@@ -89,9 +89,25 @@ A ball screw gives more backdrivability with a more transparent transmission com
 However, the total weight was around 1100 grams compare to 660 grams of *Blue*, lowering the final payload of the arm.
 
 The cross section is shown below with a interactable 3D Cad model.
-![hexrobot electronics](/website/assets/images/Hand2.jpg)
+![Hand2](/website/assets/images/04Hand2.jpg)
 <div class="stlwv2-model" data-model-url="/website/assets/models/BallScrewHandGood.STL"></div>
 <!-- find and make stl -->
+
+---
+### 3D Printer management
+
+In addition to design, I was also in charge of the 8 Markforge printers and 3 Monoprice Select Minis in the lab.
+After extensive rounds of protoyping, we decided to manufacture 8 whole arms in 2.5 weeks which meant printing 550 parts that would take 90 days of continuous printing.
+This required a lot of organization and logistics to save time and money (each roll of the Markforge Nylon filament was $180). 
+I also was the one removing prints, swapping filament, and cleaning beds, so I wanted to minimize my work as well.
+
+Below are snippets of the large multi-page excel document used to organize this. 
+This below is the high level planning to split parts onto printers for each of the A and B cycle (each cycle took 23 hrs to give me an hour to remove parts).
+![Printerorg1](/website/assets/images/04PrinterOrg1.png)
+
+This below is the day to day logs in the beginning to make sure the prints were coming out correctly (we had some underextrusion problems due to wet filament) and the filament usage rate was as predicted.
+![Printerorg2](/website/assets/images/04PrinterOrg2.png)
+
 
 ---
 

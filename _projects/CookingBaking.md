@@ -39,6 +39,9 @@ I like how there is very little waste and you can compose a skewer with a variet
 *Chicken Ramen*
 ![Ramen](/website/assets/images/foodsoyuramen.jpg)
 
+*Oxtail Noodles*
+![Oxtail](/website/assets/images/foodOxtail.jpg)
+
 *Steamed Whole Fish*
 ![Whole Fish](/website/assets/images/foodwholefish.jpg)
 
