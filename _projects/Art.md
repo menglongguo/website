@@ -11,9 +11,8 @@ As a mechanical engineer and roboticist, I try to imbue as much art into the des
 
 ---
 
-
-![Escher Hands](/website/assets/images/HandsPbrighter.jpg)
 *Copy of Drawing Hands*
+![Escher Hands](/website/assets/images/HandsPbrighter.jpg)
 :  Sketching was the first form of art I learned.
 I always loved the theme of cycles and paradox, so I drew this copy of MC Esher's Drawing Hands (I think sometimes back in middle school).	
 
