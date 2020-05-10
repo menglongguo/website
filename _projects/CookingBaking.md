@@ -27,6 +27,15 @@ I like how there is very little waste and you can compose a skewer with a variet
 
 <iframe src="https://drive.google.com/file/d/1rvdkvsND97ozCNDBySDMZiOoLVxlDQoE/preview"></iframe>
 
+*Chinese Pancake*
+![Pancake](/website/assets/images/foodbun.jpg)
+
+*Fried ribs (金沙排骨)*
+![ribs](/website/assets/images/foodfriedribs.jpg)
+
+*Spring roll*
+![Spring roll](/website/assets/images/foodspringroll.jpg)
+
 *Steamed Sea Bass*
 ![Sea Bass](/website/assets/images/foodseabass.jpg)
 
