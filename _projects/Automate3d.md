@@ -10,7 +10,7 @@ This is my mechatronic senior design project.
 I wanted to automate the removal of 3D printed parts to print overnight and with many printers. 
 The system uses one robotic gripper that services 4 independent 3D printers moving along a verticle gantry. 
 
-![Cover closeup](/website/assets/images/automatedCoverPic.jpg)
+![Cover closeup](/website/assets/images/21automatedCoverPic.jpg)
 Closeup of the robotic gripper flexing the bed to pop off the part
 
 ---
@@ -44,7 +44,7 @@ I was in charge of the mechanical design and assembly, including the complicated
 I coupled the servo motors in a way that both will be involved in the enclosing and flexing motions.
 The diagram of the coupling and model of the gripper are shown below:
 
-![Differential Diagram](/website/assets/images/automatedDifferential.jpg)
+![Differential Diagram](/website/assets/images/21automatedDifferential.jpg)
 
 <div class="stlwv2-model" data-model-url="/website/assets/models/automatedDiff.STL"></div>
 
@@ -55,7 +55,7 @@ My other group members (Philipp Wu[https://www.linkedin.com/in/wuphilipp/] and A
 The diagram of the full system and model of the system are shown below:
 
 
-![Full System Diagram](/website/assets/images/automatedSystem.jpg)
+![Full System Diagram](/website/assets/images/21automatedSystem.jpg)
 
 <div class="stlwv2-model" data-model-url="/website/assets/models/automatedFull.STL"></div>
 
@@ -71,7 +71,7 @@ Overall, this project was a crazy experience and great sucess!
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/oojNtPXFrFY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-![No part Closeup](/website/assets/images/automatedCloseup.jpg)
+![No part Closeup](/website/assets/images/21automatedCloseup.jpg)
 
 
 

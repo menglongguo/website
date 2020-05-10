@@ -9,7 +9,7 @@ type: class
 I had to design a device for my planar mechanism class that utilized one of the many gear mechanisms taught.
 I chose the geneva drive and built a silly device that scrapes the white cream from the chocolate oreo cookie (shown below).
 
-![Oreo cover](/website/assets/images/OreoCover.JPG)
+![Oreo cover](/website/assets/images/20OreoCover.JPG)
 
 ---
 
@@ -20,7 +20,7 @@ This allows for discrete loading and scraping actions in each stage.
 It also gives you the ability to amplify motor torque in certain motions.
 Below shows the diagram of each stage as the center motor spins.
 
-![Full](/website/assets/images/OreoDiagram.jpg)
+![Full](/website/assets/images/20OreoDiagram.jpg)
 
 
 This video shows the device without a cookie loaded:
@@ -36,5 +36,5 @@ Overall, it was a fun challenge to design this device in a week even if it's for
 
 <div class="stlwv2-model" data-model-url="/website/assets/models/OreoScraper.STL"></div>
 
-![Oreo Exploded](/website/assets/images/OreoExploded.JPG)
+![Oreo Exploded](/website/assets/images/20OreoExploded.JPG)
 

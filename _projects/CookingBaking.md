@@ -33,7 +33,7 @@ I like how there is very little waste and you can compose a skewer with a variet
 *Fried ribs (金沙排骨)*
 ![ribs](/website/assets/images/foodfriedribs.jpg)
 
-*Spring roll*
+*Spring rolls*
 ![Spring roll](/website/assets/images/foodspringroll.jpg)
 
 *Steamed Sea Bass*

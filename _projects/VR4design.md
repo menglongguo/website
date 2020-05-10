@@ -11,7 +11,7 @@ The *VR for Design* research project is to develop and test a new pipeline for d
 This research is done under [Professor Bjoern Hartmann](https://people.eecs.berkeley.edu/~bjoern/) and the [Jacobs Institute for Design](https://jacobsinstitute.berkeley.edu/). 
 I worked on this in my 4th year at Berkeley alongside [James Smith](https://www.linkedin.com/in/jdsmithcoder/).
 
-![vr gif](/website/assets/images/YoutubeVr_1.gif)
+![vr gif](/website/assets/images/03YoutubeVr_1.gif)
 
 ---
 
@@ -21,7 +21,7 @@ I worked on this in my 4th year at Berkeley alongside [James Smith](https://www.
 As rapid prototyping tools and spaces increase, designers build more complicated assemblies with many moving parts.
 The only way to interact with these designs is to build a physical prototype.
 
-![Design Workflow](/website/assets/images/Vr4designFlow.JPG)
+![Design Workflow](/website/assets/images/03Vr4designFlow.JPG)
 
 This project attempts to provide an alternative pathway to interact with designs through virtual reality.
 The goal is to create a virtual representation with all the proper physics, material properties, and moving parts you would expect from a physical prototype.
@@ -46,11 +46,11 @@ Similar to how 3D printing has become an ubiquitous prototyping tool in many ind
 
 In a team of two, we implemented a pipeline that analyze the joint information from Fusion 360 CAD environment, re-configures the model with Unity's joint, and incorporates the user's movement into meaningful interaction in VR. 
 
-![workflow](/website/assets/images/vrWorkflow.png)
+![workflow](/website/assets/images/03VrWorkflow.png)
 
 The CAD program chosen was [Fusion 360](https://www.autodesk.com/products/fusion-360/overview#banner) for its more ubiquity amongst students (free software) and beginner friendly environment.
 
-![api](/website/assets/images/Vr4designAPI.JPG)
+![api](/website/assets/images/03Vr4designAPI.JPG)
 
 A lot of the engineering effort went into using the information available through the [Fusion API](https://help.autodesk.com/view/fusion360/ENU/?guid=GUID-7B5A90C8-E94C-48DA-B16B-430729B734DC) to create geometric data to re-configure the joints in Unity.
 The program must be robust enough to handle all the edge cases when there was not enough information while minimizing user input to make the program as seemless as possible. 
