@@ -21,6 +21,7 @@ As I switched apartments and phones (5 in-between iterations not shown) through 
 <iframe src="https://drive.google.com/file/d/1bRQmwvNYxCY9mTKeQ8omNwjdBS0U7J1m/preview"></iframe>
 
 ---
+
 ### Lap Desk
 
 The *lapdesk* project was to make note-taking more ergonomic but ended up as an exercise to stretch the bound of plywood construction. 
@@ -54,6 +55,7 @@ It was a fun and sleek design but couldn’t outperform the plethora of phone-ho
 ![phone arm](/website/assets/images/11phonearm.JPG)
 
 <iframe src="https://drive.google.com/file/d/1h-LN3hMPEF-r0_uK8g9rpy8sAuyNDceZ/preview"></iframe>
+
 ---
 
 ### ABB point gripper
@@ -83,6 +85,7 @@ I always enjoy exploring the intersection of design and math.
 ![math](/website/assets/images/11math.jpg)
 
 ---
+
 ### Cycloidal
 
 I tried making a [cycloidal](https://en.wikipedia.org/wiki/Cycloidal_drive) gearbox transmission for a bldc gimbal motor. 
@@ -91,6 +94,7 @@ It worked ok without any load but seize up once any load was added (mostly due t
 ![cycloidal](/website/assets/images/11cycloidal.jpg)
 
 ---
+
 ### 3d Printer Failure Notes
 
 This was a quick idea to laser-cut generic 3d printer failure notes on post-it notes for the makerspace. 
@@ -99,6 +103,7 @@ I like to indulge the sporadic design spark, especially for quick projects testi
 ![3d failure](/website/assets/images/11printnotes.jpg)
 
 ---
+
 ### Brush Case
 
 This simple case stores my brushes and also transforms into a paintbrush stand. 
@@ -108,6 +113,7 @@ Looking back, the relatively weak laser-cut fingers and acrylic glue joints held
 ![brush2](/website/assets/images/11brush_open.JPG)
 
 ---
+
 ### Audio Mixer Cover
 
 One of my electrical engineering friends asked me to make a cover for his audio mixer. 
@@ -117,6 +123,7 @@ I wanted a sleek design and a user-friendly edge so I bent acrylic to form a nic
 ![russ2](/website/assets/images/11russ2.jpg)
 
 ---
+
 ### Clothing Organizer
 
 Just a quick illustrator exercise to make a formal wear organizer.
