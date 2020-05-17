@@ -11,8 +11,9 @@ type: misc
 ![GaryInPit](/website/assets/images/12Garywithshirt.jpg)
 
 I designed this Tshirt to feature [Gary Gin](https://twitter.com/botdriver?lang=en), a well-known robot builder/driver on the ["BattleBots"](https://battlebots.com/robot/free-shipping-2018/) show on Discovery Channel (also a grumpy design specialist at UC Berkeley's Jacobs Hall).
-I really enjoyed how simple yet distinctive the design is.
-It has even gained a following with over 300 Tshirts out there that can be purchased through [Teespring](https://teespring.com/shop/gary_is_watching?pid=369&cid=6512) and [Battlebots](https://www.battlebotsstore.com/index.php?route=product/search&search=gary). 
+I really enjoyed the design's simplicity yet distinctiveness.
+It has even gained a following with over 300 tshirts out in the world. 
+The design can now be purchased through [Teespring](https://teespring.com/shop/gary_is_watching?pid=369&cid=6512) and [Battlebots](https://www.battlebotsstore.com/index.php?route=product/search&search=gary). 
 
 ![GaryTspring](/website/assets/images/12GaryTspring.JPG)
 
