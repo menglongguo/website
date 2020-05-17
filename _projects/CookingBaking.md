@@ -27,8 +27,14 @@ I like how there is very little waste and you can compose a skewer with a variet
 
 <iframe src="https://drive.google.com/file/d/1rvdkvsND97ozCNDBySDMZiOoLVxlDQoE/preview"></iframe>
 
+*Hainanese Chicken Rice*
+![hainan](/website/assets/images/foodhainan.jpg)
+
 *Chinese Pancake*
 ![Pancake](/website/assets/images/foodbun.jpg)
+
+*Popcorn Chicken*
+![popcorn](/website/assets/images/foodpopcorn.jpg)
 
 *Fried ribs (金沙排骨)*
 ![ribs](/website/assets/images/foodfriedribs.jpg)
