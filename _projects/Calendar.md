@@ -8,8 +8,8 @@ type: class
 
 ![Calendar Picture](/website/assets/images/22CalendarCover.jpg)
 
-I built this calendar that cycles through dates mechanically as a fun side project. 
-It was my first woodworking experience and I used it to learn the nuances of choosing and shaping wood (I made it a week-long design sprint)!
+I built this calendar that cycles through dates as a fun side project (a week-long design sprint). 
+It was my first woodworking experience and I used it to learn the nuances of choosing and shaping wood!
 Check out the video below to see the calendar in action!
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/sazfCaEHkps?start=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -31,17 +31,17 @@ Using the CAD model and pictures, try to figure out each part and its manufactur
 ---
 ### The Base
 
-Of all the features, I am most proud of the curved base.
+Of all the features, I really liked designing the curved base.
 I wanted to achieve the illusion of bending wood and aluminum with only 2D shapes (laser cutting and waterjetting).
 Try to decipher the assembly process with the two pictures below!
 
 ![Calendar Base](/website/assets/images/22CalendarBase.JPG)
 
-
+Cutaway View Below:
 ![Calendar Base Cutaway](/website/assets/images/22CalendarBaseCut.JPG)
 
 Some things that I could improve upon include pattern matching and customization. 
 The base doesnt look that seamless because I didn't match wood cuts at their intersection.
-After I finished, I had the idea of adding removable blocks inside the mechanism to allow for a different number of tiles that could be cycled through. 
+After I finished, I had the idea of adding removable blocks inside the mechanism to allow for a different number of tiles that could be cycled through (maybe for hours in a day or days till an event)! 
 
 ---
