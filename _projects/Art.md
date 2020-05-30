@@ -14,12 +14,12 @@ As a mechanical engineer and roboticist, I try to imbue as much art into the des
 *Copy of Drawing Hands*
 ![Escher Hands](/website/assets/images/1HandsPbrighter.jpg)
 Sketching was the first form of art I learned.
-I always loved the theme of cycles and paradox, so I drew this copy of MC Esher's Drawing Hands (I think sometimes back in middle school).	
+I always loved the theme of cycles and paradox, so I drew this copy of MC Esher's Drawing Hands (I think sometimes in middle school).	
 
 
 *Taking Flight*
 ![Bird in Hand](/website/assets/images/1BirdHandPbrighter.jpg)
-Just a simple sketch of bird taking flight (also was done in middle school).
+Just a simple sketch of bird taking flight (also done in middle school).
 
 *Colorful Bird*
 ![Colored Bird](/website/assets/images/1BirdCPbrighter.jpg)
@@ -47,7 +47,7 @@ This was my first attempt painting and I just remembered how long it took to wai
 *Campanile when Blue*
 ![Campanile when Blue](/website/assets/images/1CampMIXdarker.jpg)
 Once a while, the Campanile Tower is showered in blue light for festival events.
-This was my attempt to capture the sight in colored pencil (done in freshman year of college).
+This was my attempt to capture the sight in colored pencil (done in freshman year).
 
 *3D Printed Art*
 ![3d Art 2](/website/assets/images/13dArt2.JPG)
@@ -59,12 +59,12 @@ I enjoyed playing with this idea of art in the 3d printed medium!
 
 *Horse Standing #3*
 ![Horse Standing](/website/assets/images/1Horse2MB.jpg)
-This was my first forray into Chinese painting and calligraphy. 
+This was my first attempt into Chinese painting and calligraphy. 
 Unlike many other mediums, you can't erase or cover up any stroke, you have to have the conviction and plan the moment your brush makes contact.
 Everything happens very quickly (each drawing taking about 5 minutes) so it's very easy to see the level of one's brush technique. 
 This isn't a very good painting by any means but I was proud of it being the 3rd horse I ever painted.
 
 *Horse Galloping #4*
 ![Horse Galloping](/website/assets/images/1HorseMB.jpg)
-I painted both of these in the junior year of college, and hopefully they mark the beginning of a lot of hardwork and practice.
+I painted both of these in the junior year, and I hope I continue to improve in the craft!
 
