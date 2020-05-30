@@ -6,7 +6,7 @@ stlwv2_models: no
 type: class
 ---
 When I happened upon the [Design institute](https://jacobsinstitute.berkeley.edu/) at UC Berkeley, I discovered the world of “making”. 
-As a result, I spent a lot of my first two years exploring this world through many interesting (and sometimes terrible) projects. 
+As a result, I spent a lot of my first two years in college exploring this space through many interesting (and sometimes failed) projects. 
 
 ---
 ### Phone case
@@ -18,15 +18,16 @@ As I switched apartments and phones (5 in-between iterations not shown) through 
 
 ![Phone](/website/assets/images/11phonecase.jpg)
 
+The first model and current model:
 <iframe src="https://drive.google.com/file/d/1bRQmwvNYxCY9mTKeQ8omNwjdBS0U7J1m/preview"></iframe>
 
 ---
 
 ### Lap Desk
 
-The *lapdesk* project was to make note-taking more ergonomic but ended up as an exercise to stretch the bound of plywood construction. 
+The *lapdesk* project was to make note-taking more ergonomic but ended up as an exploration of plywood construction. 
 Thinking about ways to make laser-cut planes of plywood bend and curve was an interesting challenge. 
-Unfortunately, I never used this because it was impractical to carry and not much more ergonomic. 
+Unfortunately, I never used this because it was impractical to carry and not much more ergonomic than regular note-taking. 
 Although I did enjoy the experience, my biggest takeaway is this: if you prioritize the journey over the destination, the product will sometimes be useless.
 
 ![lapdesk](/website/assets/images/11lapdesk.JPG)
@@ -60,8 +61,7 @@ It was a fun and sleek design but couldn’t outperform the plethora of phone-ho
 
 ### ABB point gripper
 
-This was a gripper for the ABB Yumi robot to simulate a point contact with embedded ball bearings. 
-Since it was one of the first projects in [Autolab](http://autolab.berkeley.edu/) and gets used every day for research, it holds a special place. 
+This was a gripper was created for [Autolab](http://autolab.berkeley.edu/) to simulate a point contact with embedded ball bearings. 
 
 ![abb](/website/assets/images/11abb.jpg)
 
@@ -69,8 +69,8 @@ Since it was one of the first projects in [Autolab](http://autolab.berkeley.edu/
 ### Davinci Test Setup
 
 Of all the experimental hardware I built for the [Autolab](http://autolab.berkeley.edu/), this one was the most memorable. 
-It was my first exposure to the creative and complex world of machining (i had no idea what mills were until freshman year). 
-I still remember Jessie of the ME machine shop showing me what an auto tapper was, saving me the foolish quest of tapping 250 holes by hand. 
+It was my first exposure to the creative and complex world of machining (I had no idea what mills were until freshman year). 
+I still remember Jessie of the ME machine shop showing me what an auto tapper was, saving me from the foolish quest of tapping 250 holes by hand. 
 
 ![davinci](/website/assets/images/11davinci.jpg)
 
@@ -80,7 +80,7 @@ I still remember Jessie of the ME machine shop showing me what an auto tapper wa
 
 The blue wave structure was generated using recursive math equations in a program called [Structure Synth](http://structuresynth.sourceforge.net/). 
 The white organic-looking sphere is made from a Voronoi pattern as a design-athon project to create an elegant night light. 
-I always enjoy exploring the intersection of design and math. 
+I always enjoy exploring the intersection of design and math! 
 
 ![math](/website/assets/images/11math.jpg)
 
@@ -98,7 +98,7 @@ It worked ok without any load but seize up once any load was added (mostly due t
 ### 3d Printer Failure Notes
 
 This was a quick idea to laser-cut generic 3d printer failure notes on post-it notes for the makerspace. 
-I like to indulge the sporadic design spark, especially for quick projects testing new techniques. 
+I like to indulge the sporadic design spark, especially for quick projects testing new techniques! 
 
 ![3d failure](/website/assets/images/11printnotes.jpg)
 
