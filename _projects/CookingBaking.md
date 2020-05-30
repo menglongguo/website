@@ -30,6 +30,9 @@ I like how there is very little waste and you can compose a skewer with a variet
 *Hainanese Chicken Rice*
 ![hainan](/website/assets/images/foodhainan.jpg)
 
+*Crispy Pork Belly (Siu Yuk)*
+![siuyuk](/website/assets/images/foodsiuyuk.jpg)
+
 *Chinese Pancake*
 ![Pancake](/website/assets/images/foodbun.jpg)
 
@@ -77,6 +80,10 @@ They came out pretty good in all their forms!
 
 *Mochi Donut*
 ![Mochi Small](/website/assets/images/foodmochidonut.jpg)
+
+*Buttermilk Pie*
+![Buttermilk](/website/assets/images/foodbuttermilk.jpg)
+
 
 
 ---
