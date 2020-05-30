@@ -51,8 +51,8 @@ The diagram of the coupling and model of the gripper are shown below:
 ---
 ### Full System
 
-My other group members (Philipp Wu[https://www.linkedin.com/in/wuphilipp/] and Allan Zhao[https://www.csail.mit.edu/person/allan-zhao-0]) worked on system integration, electronic design, and printer interface.
-The diagram of the full system and model of the system are shown below:
+The other group members ([Philipp Wu](https://www.linkedin.com/in/wuphilipp/) and [Allan Zhao](https://www.csail.mit.edu/person/allan-zhao-0)) worked on system integration, electronic design, and printer interface.
+Their amazing work tied the whole project together and gave it life!
 
 
 ![Full System Diagram](/website/assets/images/21automatedSystem.jpg)
