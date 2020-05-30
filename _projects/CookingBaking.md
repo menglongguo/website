@@ -8,8 +8,8 @@ type: misc
 
 My family is from the south of China that is known for a lighter style of cooking with mellow sauces, focusing more on texture than flavor.
 Growing up in the US has exposed me to the melting pot of cooking techniques and ethnic styles. 
-Both these influences have largely shaped my palette and merged into an unique approach to cooking!
-Below are some dishes I have made and experimented with!
+Both these influences have largely shaped my palette and merged into an unique approach to cooking.
+Below are some dishes I have made!
 
 ---
 ### Cooking
