@@ -7,8 +7,8 @@ type: research
 ---
 
 *Blue* is a low-cost, human-size, and compliant 7 degree of freedom arm with a 2kg payload.
-It was developed from scratch in the [Robot Learning Lab](http://rll.berkeley.edu/) under [Professor Pieter Abbeel](https://people.eecs.berkeley.edu/~pabbeel/) as a low-cost platform to democratize robotic research.
-I worked on this project from my 3rd to final year of my undergraduate degree.
+It was developed in the [Robot Learning Lab](http://rll.berkeley.edu/) under [Professor Pieter Abbeel](https://people.eecs.berkeley.edu/~pabbeel/) as a low-cost platform to democratize robotic research.
+I worked on this project from my 3rd to final year of my bachelor at Berkeley.
 What began in 2017 as a concept, is now a platform available for researchers (more information is available [here](https://www.berkeleyopenarms.org/)).
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/RCQNIgySaYw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -38,7 +38,7 @@ A cheaper hand lowers the barrier of entry for research. The final Bill of Mater
 Research sees a lot of collisions between end effector and environment. The HALT testing shows it could withstand 50,000 low speed impact collisions and 4,000 high speed collisions (video below).
 
 - Repeatable:
-The gripper should be consistent through its life cycle. *Blue* was functional after 40,000 cycles of repeated grasping with no loss of performance.
+The gripper should be consistent through its life cycle. The *Blue* gripper was functional after 40,000 cycles of repeated grasping with no loss of performance.
 
 - Lightweight:
 The lighter the gripper the greater the payload can be. The final weight is 660 grams.
@@ -58,8 +58,8 @@ A model of the gripper with inner mechanism shown:
 <!-- find and make stl -->
 
 
-In hopes of growing the field of research in robotic grippers,we open-sourced the designs [here](https://berkeleyopengrippers.github.io/).
-The research work was published in IEEE's Conference on Automation Science and Engineering and a copy is shown below:
+In hopes of growing the field of research in robotic grippers, we open-sourced the designs [here](https://berkeleyopengrippers.github.io/).
+The research work was published in the 2019 IEEE's Conference on Automation Science and Engineering and a copy is shown below:
 <iframe src="https://drive.google.com/file/d/1LC0DirgkaY__70R6G0JBzAUYHXj9ZpEU/preview"></iframe>
 
 Footage of durability testing of the robot shown below:
@@ -97,12 +97,12 @@ The cross section is shown below with a interactable 3D Cad model.
 ### 3D Printer management
 
 In addition to design, I was also in charge of the 8 Markforge printers and 3 Monoprice Select Minis in the lab.
-After extensive rounds of protoyping, we decided to manufacture 8 whole arms in 2.5 weeks which meant printing 550 parts that would take 90 days of continuous printing.
+After extensive rounds of protoyping, we decided to manufacture 8 whole arms in 2.5 weeks which meant printing 550 parts (90 days of continuous printing).
 This required a lot of organization and logistics to save time and money (each roll of the Markforge Nylon filament was $180). 
 I also was the one removing prints, swapping filament, and cleaning beds, so I wanted to minimize my work as well.
 
 Below are snippets of the large multi-page excel document used to organize this. 
-This below is the high level planning to split parts onto printers for each of the A and B cycle (each cycle took 23 hrs to give me an hour to remove parts).
+This below is the high level planning to split parts onto printers for each of the A and B cycle (each cycle took 23 hrs to give me an hour each day to remove parts and start the next cycle).
 ![Printerorg1](/website/assets/images/04PrinterOrg1.png)
 
 This below is the day to day logs in the beginning to make sure the prints were coming out correctly (we had some underextrusion problems due to wet filament) and the filament usage rate was as predicted.
