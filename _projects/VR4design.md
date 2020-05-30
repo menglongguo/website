@@ -44,7 +44,7 @@ Similar to how 3D printing has become an ubiquitous prototyping tool in many ind
 
 ### Implementation
 
-In a team of two, we implemented a pipeline that analyze the joint information from Fusion 360 CAD environment, re-configures the model with Unity's joint, and incorporates the user's movement into meaningful interaction in VR. 
+In a team of two, we implemented a pipeline that would analyze the joint information from Fusion 360's CAD environment, re-configure the model with Unity's joints, and incorporate the user's movement into meaningful interactions in VR. 
 
 ![workflow](/website/assets/images/03VrWorkflow.png)
 
@@ -53,7 +53,7 @@ The CAD program chosen was [Fusion 360](https://www.autodesk.com/products/fusion
 ![api](/website/assets/images/03Vr4designAPI.JPG)
 
 A lot of the engineering effort went into using the information available through the [Fusion API](https://help.autodesk.com/view/fusion360/ENU/?guid=GUID-7B5A90C8-E94C-48DA-B16B-430729B734DC) to create geometric data to re-configure the joints in Unity.
-The program must be robust enough to handle all the edge cases when there was not enough information while minimizing user input to make the program as seemless as possible. 
+The program must be robust enough to handle all the edge cases from lack of information while minimizing user input to make the program as usable as possible. 
 
 Check out the video below of how the program was used to help iterate on a standing desk design:
 
