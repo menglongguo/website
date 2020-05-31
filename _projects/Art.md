@@ -58,13 +58,13 @@ I enjoyed playing with this idea of art in the 3d printed medium!
 
 
 *Horse Standing #3*
-![Horse Standing](/website/assets/images/1Horse2MB.jpg)
+![Horse Standing](/website/assets/images/1Horse3.jpg)
 This was my first attempt into Chinese painting and calligraphy. 
 Unlike many other mediums, you can't erase or cover up any stroke, you have to have the conviction and plan the moment your brush makes contact.
 Everything happens very quickly (each drawing taking about 5 minutes) so it's very easy to see the level of one's brush technique. 
 This isn't a very good painting by any means but I was proud of it being the 3rd horse I ever painted.
 
 *Horse Galloping #4*
-![Horse Galloping](/website/assets/images/1HorseMB.jpg)
+![Horse Galloping](/website/assets/images/1Horse4.jpg)
 I painted both of these in the junior year, and I hope I continue to improve in the craft!
 
