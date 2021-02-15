@@ -14,6 +14,33 @@ Below are some dishes I have made!
 ---
 ### Cooking
 
+*Ramen*
+![Ramen](/website/assets/images/FoodRamen.jpg)
+
+
+*Detroit-Style Pizza*
+![Pizza](/website/assets/images/FoodDetroitStylePizza2.jpg)
+Usually not a big fan of pizza, but I really like the process of kneading dough and proofing! 
+I also like how the detroit style pizza has a airy bread base dressed with a carmelized cheeze exterior.
+
+
+*Chicken Katsu Sandwich*
+![Sandwich](/website/assets/images/FoodChickenKatsuSandwich2.jpg)
+This is my favorite sandwich! 
+A crispy katsu fillet with a pickle slice and brie cheese sandwich in between toasted airy Focaccia bread slices!
+
+*Clay Pot Rice
+
+![Claypot](/website/assets/images/FoodClayPotRice.jpg)
+I like how easy it is to get the variety of textures and flavours in the Hong-kong style clay pot rice!
+
+*Korean Style Seafood Pancakes*
+![pancake](/website/assets/images/FoodSeaFoodPancake1.jpg)
+
+*Salmon on sticky rice*
+![Salmon](/website/assets/images/FoodSalmonStickyRice.jpg)
+It's an interesting fusion of a western-style salmon on chewey asian sticky rice.
+
 *Pork Katsu*
 ![Katsu](/website/assets/images/foodporkkatsu.jpg)
 
