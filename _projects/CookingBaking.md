@@ -96,6 +96,15 @@ I like how there is very little waste and you can compose a skewer with a variet
 ---
 ### Baking
 
+*Taro Sago with Coconut jelly*
+![Taro](/website/assets/images/FoodTaroSago.jpg)
+Chewey sago pearls with savory Taro bites and sweet coconut jelly. 
+Easy to make and store to serve either hot or cold!
+
+*Hong Kong Egg Tarts*
+![Eggtarts](/website/assets/images/FoodEggTart1.jpg)
+Rolling and folding the dough to get the traditionally flaky skin was very tedious but worth it!
+
 *Mochi Muffin (small)*
 ![Mochi Small](/website/assets/images/foodmochismall.jpg)
 A [Berkeley store](https://thirdculturebakery.com/) sells these amazing mochi muffins that are crunchy on the outside and chewy on the inside.
@@ -110,6 +119,7 @@ They came out pretty good in all their forms!
 
 *Buttermilk Pie*
 ![Buttermilk](/website/assets/images/foodbuttermilk.jpg)
+
 
 
 
