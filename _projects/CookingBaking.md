@@ -27,7 +27,7 @@ I also like how the detroit style pizza has a airy bread base dressed with a car
 *Chicken Katsu Sandwich*
 ![Sandwich](/website/assets/images/FoodChickenKatsuSandwich2.jpg)
 This is my favorite sandwich! 
-A crispy katsu fillet with a pickle slice and brie cheese sandwich in between toasted airy Focaccia bread slices!
+A crispy katsu fillet with a pickle slice and brie cheese in between toasted airy Focaccia bread slices!
 
 *Clay Pot Rice
 
@@ -35,7 +35,7 @@ A crispy katsu fillet with a pickle slice and brie cheese sandwich in between to
 I like how easy it is to get the variety of textures and flavours in the Hong-kong style clay pot rice!
 
 *Korean Style Seafood Pancakes*
-![pancake](/website/assets/images/FoodSeaFoodPancake1.jpg)
+![pancake](/website/assets/images/FoodSeafoodPancake1.jpg)
 
 *Salmon on sticky rice*
 ![Salmon](/website/assets/images/FoodSalmonStickyRice.jpg)
