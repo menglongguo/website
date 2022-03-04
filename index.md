@@ -4,7 +4,7 @@ layout: home
 
 # Menglong Guo
 BS Mechanical Engineering @ UC Berkeley (Fall 15 - Fall 18)
-MS Mechanical Engineering @ MIT (Fall 20 - Fall 22) (Advisor: Sangbae Kim, [Biomimetic Lab](https://biomimetics.mit.edu/){:target="_blank"})
+MS Mechanical Engineering @ MIT (Fall 20 - Fall 22) Advisor: Sangbae Kim
 
 <br />
 <span id="email"></span>
