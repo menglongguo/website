@@ -8,6 +8,7 @@ type: class
 When I happened upon the [Design institute](https://jacobsinstitute.berkeley.edu/) at UC Berkeley, I discovered the world of “making”. 
 As a result, I spent a lot of my first two years in college exploring this space through many interesting (and sometimes failed) projects. 
 
+<iframe src="https://giphy.com/embed/gw3IWyGkC0rsazTi" width="480" height="360" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/test-gw3IWyGkC0rsazTi">via GIPHY</a></p>
 ---
 ### Phone case
 
