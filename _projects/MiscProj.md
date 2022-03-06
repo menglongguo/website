@@ -8,8 +8,8 @@ type: class
 When I happened upon the [Design institute](https://jacobsinstitute.berkeley.edu/) at UC Berkeley, I discovered the world of “making”. 
 As a result, I spent a lot of my first two years in college exploring this space through many interesting (and sometimes failed) projects. 
 
-![demo 1 gif](/website/assets/images/3Demo1.gif)
-![demo 2 gif](/website/assets/images/3Demo2.gif)
+<!-- ![demo 1 gif](/website/assets/images/3Demo1.gif)  -->
+<!-- ![demo 2 gif](/website/assets/images/3Demo2.gif)  -->
 ---
 ### Phone case
 
