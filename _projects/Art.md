@@ -18,13 +18,11 @@ As a mechanical engineer and roboticist, I try to imbue as much art into the des
 Sketching was the first form of art I learned.
 I always loved the theme of cycles and paradox, so I drew this copy of MC Esher's Drawing Hands (I think sometimes in middle school).	
 
-<details>
-    <summary>Test</summary>
-    
-    
-    ![Ag device gif](/website/assets/images/0DateVid.gif)
-    
-    
+<details><summary>Hello</summary>
+
+Note the **double enter** or else Markdown won't work!
+![test photo](https://www.bing.com/th?id=AMMS_04305b7650b93826972c03802545215f&w=110&h=110&c=7&rs=1&qlt=80&cdv=1&pid=16.1)
+
 </details>
 
 *Taking Flight*
