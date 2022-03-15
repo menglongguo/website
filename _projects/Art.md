@@ -21,7 +21,7 @@ I always loved the theme of cycles and paradox, so I drew this copy of MC Esher'
     
     
     
-    ![Escher Hands2](/website/assets/images/1HandsPbrighter.jpg)
+    ![Escher Hands2](https://www.bing.com/th?id=AMMS_04305b7650b93826972c03802545215f&w=110&h=110&c=7&rs=1&qlt=80&cdv=1&pid=16.1)
     
     
 </details>
