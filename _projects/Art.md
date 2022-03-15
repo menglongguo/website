@@ -5,12 +5,7 @@ order: 107
 stlwv2_models: no
 type: misc
 
----
-accordion: 
-  - title: this is item 1
-    content: Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
-  - title: this is item 2
-    content: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+
 ---
 
 In my free time, I enjoy the process of making art and trying out new mediums & techniques.
