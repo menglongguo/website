@@ -4,7 +4,6 @@ year:
 order: 107
 stlwv2_models: no
 type: misc
-{% include accordion.html %}
 
 ---
 accordion: 
