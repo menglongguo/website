@@ -18,7 +18,10 @@ I always loved the theme of cycles and paradox, so I drew this copy of MC Esher'
 
 <details>
     <summary>Test</summary>
-    <p>    ![Escher Hands2](/website/assets/images/1HandsPbrighter.jpg) </p>
+    
+    Test again
+    ![Escher Hands2](/website/assets/images/1HandsPbrighter.jpg)
+    
 </details>
 
 *Taking Flight*
