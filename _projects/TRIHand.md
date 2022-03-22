@@ -13,7 +13,7 @@ The project was to build a robotic hand for the home environment in collaboratio
 As the only member in our lab working on the project, I had a lot of freedom to explore but the design space of hand design is very complex. 
 Compare to my previous hand project, we wanted far more functionality by adding more DOF while maintaining robustness even with the added complexity.
 
-//Instead of video have a gif
+Instead of video have a gif
 <iframe width="560" height="315" src="https://www.youtube.com/embed/RCQNIgySaYw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 <details><summary>Hello</summary>
@@ -40,7 +40,7 @@ This dream is to emulate an extraordinary intricate machine with 27 joints and 3
 
 To illustrate the complexity of this design space, below is a snapshot of many robotic hands in the field.
 
-//pictures of grippers
+pictures of grippers
 
 Here are the design variables that maps this incredibly complex space:
 
