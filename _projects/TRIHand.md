@@ -8,7 +8,7 @@ type: research
 
 This was my main research project through my Master¡¯s under Professor Kim ([BRL Group](https://biomimetics.mit.edu/)) at MIT. 
 Most projects are continuations of a previous student¡¯s work, this was a completely new project in an area new to our lab: manipulation. 
-The project was to build a robotic hand for the home environment in collaboration with Toyota Research Institute and 4 other labs at MIT ().
+The project was to build a robotic hand for the home environment in collaboration with Toyota Research Institute and 4 other labs at MIT (These groups).
 As the only member in our lab working on the project, I had a lot of freedom to explore but the design space of hand design is very complex. 
 Compare to my previous hand project, we wanted far more functionality by adding more DOF while maintaining robustness even with the added complexity.
 
