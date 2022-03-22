@@ -1,7 +1,7 @@
 ---
 title: Robotic Hand for Human-like Tasks
 year: Spring 21  - Present
-order: 99
+order: 11
 stlwv2_models: yes
 type: research
 ---
