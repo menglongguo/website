@@ -8,7 +8,8 @@ type: research
 
 This was my main research project through my Master's under Professor Kim ([BRL Group](https://biomimetics.mit.edu/)) at MIT. 
 Most projects are continuations of a previous student's work, this was a completely new project in an area new to our lab: manipulation. 
-The project was to build a robotic hand for the home environment in collaboration with Toyota Research Institute and 4 other labs at MIT (These groups).
+
+The project was to build a robotic hand for the home environment in collaboration with Toyota Research Institute and 4 other labs at MIT ([Perceptual Science](http://persci.mit.edu/), [MCube](https://mcube.mit.edu/), [CDFG](https://cdfg.mit.edu/wojciech),   [Improbabl AI](https://people.csail.mit.edu/pulkitag/), ).
 As the only member in our lab working on the project, I had a lot of freedom to explore but the design space of hand design is very complex. 
 Compare to my previous hand project, we wanted far more functionality by adding more DOF while maintaining robustness even with the added complexity.
 
@@ -42,38 +43,35 @@ To illustrate the complexity of this design space, below is a snapshot of many r
 
 pictures of grippers
 
-Here are the design variables that maps this incredibly complex space:
+Here are the design axis and variables that maps this incredibly complex space:
 
 - Topology:
-A cheaper hand lowers the barrier of entry for research. The final Bill of Material cost was $330.
+The number of fingers, degree-of-freedom (DOF) of each finger, and opposability fo the fingers affect the functionality of the hand in its grasp orientation.
+The higher DOF, the more complex it becomes with more moving parts, more difficult wiring routes, and more limited control bandwidth. 
 
 - Geometry: 
-Research sees a lot of collisions between end effector and environment. The HALT testing shows it could withstand 50,000 low speed impact collisions and 4,000 high speed collisions (video below).
+The shape and material of the finger pad changes its ability to interact with the environment, the thinner the fingers the more able it is to reach into clutter and tight spaces.
+The shape of the palm affect the size and types of the object it can grasp. 
 
 - Actuation:
-The gripper should be consistent through its life cycle. The *Blue* gripper was functional after 40,000 cycles of repeated grasping with no loss of performance.
+The type of motor used (stepper, bldc, dc with big gearbox) will change the torque-speed curve as well as the rotor inertia (useful in proprioception in collisions).
+The size and shape affects where it can be mounted (in the palm, at the finger joint, or outside the hand).
 
 - Joints:
-The lighter the gripper the greater the payload can be. The final weight is 660 grams.
+The type of joint (revolute, rolling, prismatic) all changes the robustness and complexity of the finger. 
+Deciding if joints are coupled will also change the kinematics and workspace. 
 
 - Transmission:
-To be able to handle objects around 2kg, a high grip force is required. *Blue's* nominal grip force is 100N with a peak at 150N.
+Belt and pulley, direct, tendon-driven, and geared transmission all have their benefit and drawback in terms of elasticity, friction, efficiency and complexity.
 
 - Sensorization:
-Accurate feedforward force control is needed for handling of delicate objects.
-
-A model of the gripper with inner mechanism shown:
-<div class="stlwv2-model" data-model-url="/website/assets/models/BlueHandCompressed.STL"></div>
-<!-- find and make stl -->
+What kind of sensor (contact, capcitative, force, proximity) will determine the type of information you can gather and utilize from the environment.
 
 
-In hopes of growing the field of research in robotic grippers, we open-sourced the designs [here](https://berkeleyopengrippers.github.io/).
-The research work was published in the 2019 IEEE's Conference on Automation Science and Engineering and a copy is shown below:
-<iframe src="https://drive.google.com/file/d/1LC0DirgkaY__70R6G0JBzAUYHXj9ZpEU/preview"></iframe>
-
-Footage of durability testing of the robot shown below:
-<iframe width="560" height="315" src="https://www.youtube.com/embed/3JgtpOue68Y" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
+The complexity of the space is compounded by the inter-dependency of these core design axis. 
+For example, by choosing a revolute joint makes a tendon driven transmission more difficult without adding a pulley to maintain the constant length of retraction.
+Without tendon-driven transmission, that means that the actuators can't be placed outside the hand (tendons and redirect pulleys allows the actuation to be placed far from the joint)
+This constricts the size of the motor's themselves if you have to put all the actuation in the hand.
 ---
 ### Alternatives Designs using a Strain Gauge
 
