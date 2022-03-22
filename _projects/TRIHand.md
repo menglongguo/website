@@ -88,9 +88,9 @@ To decide what types of grasping function the hand should be able to achieve, I 
 
 </details>
 
+Picture of grasp dof (finger)
 
-
-Picture of grasp dof
+Rolling joint gif and explain
 
 
 
