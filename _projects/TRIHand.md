@@ -16,6 +16,7 @@ Compare to my previous hand project, we wanted far more functionality by adding 
 Instead of video have a gif
 <iframe width="560" height="315" src="https://www.youtube.com/embed/RCQNIgySaYw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+<!--
 <details><summary>Hello</summary>
 
 Note the <b> double enter </b> or else Markdown won't work!
@@ -23,7 +24,7 @@ Note the <b> double enter </b> or else Markdown won't work!
 
 </details>
 
-<!--
+
 A model of the arm:
 <div class="stlwv2-model" data-model-url="/website/assets/models/longboard_remote.stl"></div>
  find and make stl -->
