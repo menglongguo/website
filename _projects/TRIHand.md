@@ -67,34 +67,24 @@ Belt and pulley, direct, tendon-driven, and geared transmission all have their b
 - Sensorization:
 What kind of sensor (contact, capcitative, force, proximity) will determine the type of information you can gather and utilize from the environment.
 
-
+<!--
 The complexity of the space is compounded by the inter-dependency of these core design axes. 
 For example, by choosing a revolute joint makes a tendon driven transmission more difficult without adding a pulley to maintain the constant length of retraction.
 Without tendon-driven transmission, that means that the actuators can't be placed outside the hand (tendons and redirect pulleys allows the actuation to be placed far from the joint)
 This constricts the size of the motor's themselves if you have to put all the actuation in the hand.
+ -->
 
 ---
 ### Design Methodology
 
 The way I approached this space was to first fix the topology and geometry and let that dictate the other variables.
-The goal was to maximize the functionality while minimizing the DOF and as a result, the complexity and actuation.
+The goal was to maximize the functionality with the simplest topology.
 To decide what types of grasping function the hand should be able to achieve, I went into the human grasp taxonomy literature to use human hand's as a baseline.
 
-<Click for details>
 
-In the process of designing the *Blue* Gripper, other designs were made along the way.
-These designs played with the tradeoffs between force-control vs durability and force-control vs weight using different actuation modalities.
-
-The "strain gauge design" uses a strain gauge attached to a non-backdrivable dc motor.
-Although much lighter (a small motor), it was not backdrivabile (making it less safe) and not as durable (forces at finger tips directly transfer to motor).
-
-The cross section of design is shown below with a interactable 3D Cad model.
-![Hand1](/website/assets/images/04Hand1.jpg)
-<div class="stlwv2-model" data-model-url="/website/assets/models/StrainHand.STL"></div>
-<!-- find and make stl -->
 
 ---
-### Alternatives Designs using a Ball screw
+### First Prototype
 
 
 The "Ball screw design" uses a ball screw instead of the lead screw with a similar form factor as *Blue*.
@@ -107,7 +97,7 @@ The cross section is shown below with a interactable 3D Cad model.
 <!-- find and make stl -->
 
 ---
-### 3D Printer management
+### Second Prototype
 
 In addition to design, I was also in charge of the 8 Markforge printers and 3 Monoprice Select Minis in the lab.
 After extensive rounds of protoyping, we decided to manufacture 8 whole arms in 2.5 weeks which meant printing 550 parts (90 days of continuous printing).
@@ -121,13 +111,3 @@ This below is the high level planning to split parts onto printers for each of t
 This below is the day to day logs in the beginning to make sure the prints were coming out correctly (we had some underextrusion problems due to wet filament) and the filament usage rate was as predicted.
 ![Printerorg2](/website/assets/images/04PrinterOrg2.png)
 
-
----
-
-### Links
-
-- [Robot Learning Lab's website](http://rll.berkeley.edu/)
-- [Professor Pieter Abbeel's website](https://people.eecs.berkeley.edu/~pabbeel/)
-- [Berkeley Open Arms](https://www.berkeleyopenarms.org/)
-- [Paper Arxiv link](https://arxiv.org/abs/1904.03815)
-- [Berkeley Open Grippers](https://berkeleyopengrippers.github.io/)
