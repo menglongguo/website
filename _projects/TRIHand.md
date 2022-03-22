@@ -1,21 +1,26 @@
 ---
-title: TRI- A Low-Cost 7 DOF Arm and Gripper
-year: Spring 17 - Spring 19
+title: Robotic Hand for Human-like Tasks
+year: Spring 21  - Present
 order: 99
 stlwv2_models: yes
 type: research2
 ---
 
-*TRIHAND* is a low-cost, human-size, and compliant 7 degree of freedom arm with a 2kg payload.
-It was developed in the [Robot Learning Lab](http://rll.berkeley.edu/) under [Professor Pieter Abbeel](https://people.eecs.berkeley.edu/~pabbeel/) as a low-cost platform to democratize robotic research.
-I worked on this project from my 3rd to final year of my undergraduate degree at Berkeley.
-What began in 2017 as a concept, is now a platform available for researchers (more information is available [here](https://www.berkeleyopenarms.org/)).
+This was my main research project through my Master¡¯s under Professor Kim ([BRL Group](https://biomimetics.mit.edu/)) at MIT. 
+Most projects are continuations of a previous student¡¯s work, this was a completely new project in an area new to our lab: manipulation. 
+The project was to build a robotic hand for the home environment in collaboration with Toyota Research Institute and 4 other labs at MIT (). 
+As the only member in our lab working on the project, I had a lot of freedom to explore but the design space of hand design is very complex. 
+Compare to my previous hand project, we wanted far more functionality by adding more DOF while maintaining robustness even with the added complexity.
 
+//Instead of video have a gif
 <iframe width="560" height="315" src="https://www.youtube.com/embed/RCQNIgySaYw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-The work was published in the IEEE's International Conference on Robotics and Automation ([ICRA 2019](https://www.icra2019.org/)), the Arxiv link is [here](https://arxiv.org/abs/1904.03815) and a copy is shown below: 
+<details><summary>Hello</summary>
 
-<iframe src="https://drive.google.com/file/d/1BF0iX-mr0g-xxwFFcOnAoNCMtre2P8h1/preview"></iframe>
+Note the <b> double enter </b> or else Markdown won't work!
+ <img src="/website/assets/images/1HandsPbrighter.jpg" alt="test" width="500" height="600">
+
+</details>
 
 <!--
 A model of the arm:
@@ -23,35 +28,38 @@ A model of the arm:
  find and make stl -->
 
 ---
-### Hand Design
+### Problem Statement
 
-I was in charge of the end effector on the team.
-Seeing that there wasn't a gripper that fulfills all of *blue's* requirements for this type of research application, I set out to design and manufacture one.
+To understand the complexity of the challenge, it's good to evaluate the past present and future of robotic manipulation. 
+In the past, most robotic applications in industry (assembly line arms, CNC machines) are position-controlled and minimized contacts  but manipulation is built on force control and embraces contacts with objects/environment. 
+The current goal of roboticists is to get robots into the home.
+This requires robots safely doing human tasks at human speeds while navigating an environment built for humans as opposed to the clutter-free and predictable factory floor built for robots.
+The future of manipulation is to be able to build something that can emulate the functionality of our own hand.
+This dream is to emulate an extraordinary intricate machine with 27 joints and 34 muscles able to twirl pencil and hit 100 mph home runs.
 
-The design constraints included:
+To illustrate the complexity of this design space, below is a snapshot of many robotic hands in the field.
 
+//pictures of grippers
 
-- Low-cost- 
+Here are the design variables that maps this incredibly complex space:
+
+- Topology:
 A cheaper hand lowers the barrier of entry for research. The final Bill of Material cost was $330.
 
-- Durable: 
+- Geometry: 
 Research sees a lot of collisions between end effector and environment. The HALT testing shows it could withstand 50,000 low speed impact collisions and 4,000 high speed collisions (video below).
 
-- Repeatable:
+- Actuation:
 The gripper should be consistent through its life cycle. The *Blue* gripper was functional after 40,000 cycles of repeated grasping with no loss of performance.
 
-- Lightweight:
+- Joints:
 The lighter the gripper the greater the payload can be. The final weight is 660 grams.
 
-- High Grip Force:
+- Transmission:
 To be able to handle objects around 2kg, a high grip force is required. *Blue's* nominal grip force is 100N with a peak at 150N.
 
-- Force control:
+- Sensorization:
 Accurate feedforward force control is needed for handling of delicate objects.
-
-- Human-Safe:
-Safehandling encourage operation around humans. The gripper was designed with curved surfaces and no pinchpoints for ease of handling.
-
 
 A model of the gripper with inner mechanism shown:
 <div class="stlwv2-model" data-model-url="/website/assets/models/BlueHandCompressed.STL"></div>
