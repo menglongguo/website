@@ -3,7 +3,7 @@ title: Robotic Hand for Human-like Tasks
 year: Spring 21  - Present
 order: 99
 stlwv2_models: yes
-type: research2
+type: unlistedresearch
 ---
 
 This was my main research project through my Master¡¯s under Professor Kim ([BRL Group](https://biomimetics.mit.edu/)) at MIT. 
