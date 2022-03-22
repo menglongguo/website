@@ -47,7 +47,7 @@ Here are the design axis and variables that maps this incredibly complex space:
 
 - Topology:
 The number of fingers, degree-of-freedom (DOF) of each finger, and opposability fo the fingers affect the functionality of the hand in its grasp orientation.
-The higher DOF, the more complex it becomes with more moving parts, more difficult wiring routes, and more limited control bandwidth. 
+The more DOF, the more complex it becomes with more moving parts, more difficult wiring routes, and more limited control bandwidth. 
 
 - Geometry: 
 The shape and material of the finger pad changes its ability to interact with the environment, the thinner the fingers the more able it is to reach into clutter and tight spaces.
@@ -68,13 +68,19 @@ Belt and pulley, direct, tendon-driven, and geared transmission all have their b
 What kind of sensor (contact, capcitative, force, proximity) will determine the type of information you can gather and utilize from the environment.
 
 
-The complexity of the space is compounded by the inter-dependency of these core design axis. 
+The complexity of the space is compounded by the inter-dependency of these core design axes. 
 For example, by choosing a revolute joint makes a tendon driven transmission more difficult without adding a pulley to maintain the constant length of retraction.
 Without tendon-driven transmission, that means that the actuators can't be placed outside the hand (tendons and redirect pulleys allows the actuation to be placed far from the joint)
 This constricts the size of the motor's themselves if you have to put all the actuation in the hand.
----
-### Alternatives Designs using a Strain Gauge
 
+---
+### Design Methodology
+
+The way I approached this space was to first fix the topology and geometry and let that dictate the other variables.
+The goal was to maximize the functionality while minimizing the DOF and as a result, the complexity and actuation.
+To decide what types of grasping function the hand should be able to achieve, I went into the human grasp taxonomy literature to use human hand's as a baseline.
+
+<Click for details>
 
 In the process of designing the *Blue* Gripper, other designs were made along the way.
 These designs played with the tradeoffs between force-control vs durability and force-control vs weight using different actuation modalities.
