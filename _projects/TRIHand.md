@@ -81,7 +81,17 @@ The way I approached this space was to first fix the topology and geometry and l
 The goal was to maximize the functionality with the simplest topology.
 To decide what types of grasping function the hand should be able to achieve, I went into the human grasp taxonomy literature to use human hand's as a baseline.
 
-[Click for details]
+<details><summary>Click for Details</summary>
+
+(go into details with the grasp taxonomy stuff)
+ <img src="/website/assets/images/1HandsPbrighter.jpg" alt="test" width="500" height="600">
+
+</details>
+
+
+
+Picture of grasp dof
+
 
 
 ---
