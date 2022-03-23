@@ -13,7 +13,8 @@ The project was to build a robotic hand for the home environment in collaboratio
 As the only member in our lab working on the project, I had a lot of freedom to explore but the design space of hand design is very complex. 
 Compare to my previous hand project, we wanted far more functionality by adding more DOF while maintaining robustness even with the added complexity.
 
-Instead of video have a gif
+(Instead of video have a gif)
+
 <iframe width="560" height="315" src="https://www.youtube.com/embed/RCQNIgySaYw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 <!--
@@ -87,6 +88,7 @@ To decide what types of grasping function the hand should be able to achieve, I 
  <img src="/website/assets/images/1HandsPbrighter.jpg" alt="test" width="500" height="600">
 
 </details>
+(Both dollar charts)
 
 The topology chosen was 7 DOF with 3 fingers including a thumb that allows for finger opposition.
 ![Topology](/website/assets/images/31HandTopology.gif)
@@ -96,42 +98,41 @@ Remote actuation also allows for any form factor, a small dynamixel was chosen t
 Although a tendon transmission is doable for a revolute joint, a pulley is needed for constant length retraction.
 The bigger problem is joint couping, the rolling joint makes it possible to route wires so that more distal joint aren't coupled to more proximal joints. 
 
+
 The rolling joint and the wire coupling problem is shown below.
 
-![RolingJointAnimation](/website/assets/images/32HandRolling.gif)
+![RolingJointAnimation](/website/assets/images/32HandRolling.gif =100x20)
 
 ![RollingJointConservation](/website/assets/images/33conservation.jpg)
 
-
-
-
+(workspace)
 
 
 ---
 ### First Prototype
 
+This first version was meant to be (explain the context as a quick build)
 
-The "Ball screw design" uses a ball screw instead of the lead screw with a similar form factor as *Blue*.
-A ball screw gives more backdrivability with a more transparent transmission compare to a lead screw.
-However, the total weight was around 1100 grams compare to 660 grams of *Blue*, lowering the final payload of the arm.
+The decision of 3 fingers with each a specialty and the springs to restore to save wire routing.
 
-The cross section is shown below with a interactable 3D Cad model.
-![Hand2](/website/assets/images/04Hand2.jpg)
-<div class="stlwv2-model" data-model-url="/website/assets/models/BallScrewHandGood.STL"></div>
-<!-- find and make stl -->
+(Image of the thing and description)
+
+Finish? the cad and put it in
+
+(Video of it being controlled- combined)
+
+[click to show more of the electronics]
+
+
 
 ---
 ### Second Prototype
 
-In addition to design, I was also in charge of the 8 Markforge printers and 3 Monoprice Select Minis in the lab.
-After extensive rounds of protoyping, we decided to manufacture 8 whole arms in 2.5 weeks which meant printing 550 parts (90 days of continuous printing).
-This required a lot of organization and logistics to save time and money (each roll of the Markforge Nylon filament was $180). 
-I also was the one removing prints, swapping filament, and cleaning beds, so I wanted to minimize my work as well.
+(The big changes)
 
-Below are snippets of the large multi-page excel document used to organize this. 
-This below is the high level planning to split parts onto printers for each of the A and B cycle (each cycle took 23 hrs to give me an hour each day to remove parts and start the next cycle).
-![Printerorg1](/website/assets/images/04PrinterOrg1.png)
+(wire routing picture)
 
-This below is the day to day logs in the beginning to make sure the prints were coming out correctly (we had some underextrusion problems due to wet filament) and the filament usage rate was as predicted.
-![Printerorg2](/website/assets/images/04PrinterOrg2.png)
+(cad of it)
+
+
 
