@@ -91,7 +91,19 @@ To decide what types of grasping function the hand should be able to achieve, I 
 The topology chosen was 7 DOF with 3 fingers including a thumb that allows for finger opposition.
 ![Topology](/website/assets/images/31HandTopology.gif)
 
-Rolling joint gif and explain
+7 Dof with 6 motors (one finger underactuated) would be difficult to have all actuation in the hand, so using tendon transmission allows for remote actuation.
+Remote actuation also allows for any form factor, a small dynamixel was chosen to minimize weight and size. 
+Although a tendon transmission is doable for a revolute joint, a pulley is needed for constant length retraction.
+The bigger problem is joint couping, the rolling joint makes it possible to route wires so that more distal joint aren't coupled to more proximal joints. 
+
+The rolling joint and the wire coupling problem is shown below.
+
+![RolingJointAnimation](/website/assets/images/32HandRolling.gif)
+
+![RollingJointConservation](/website/assets/images/33conservation.jpg)
+
+
+
 
 
 
