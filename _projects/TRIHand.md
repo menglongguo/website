@@ -103,11 +103,11 @@ The rolling joint and the wire coupling problem is shown below.
 
 ![RolingJointAnimation](/website/assets/images/32HandRolling.gif)
 
-<img src="/website/assets/images/32HandRolling.gif" alt="RolingJointAnimation" height="400"/>
+<img src="/website/assets/images/32HandRolling.gif" alt="RolingJointAnimation" height="300"/>
 
 ![RollingJointConservation](/website/assets/images/33conservation.jpg)
 
-<img src="/website/assets/images/33conservation.jpg" alt="RollingJointConservation" height="400"/>
+<img src="/website/assets/images/33conservation.jpg" alt="RollingJointConservation" height="300"/>
 
 (workspace)
 
