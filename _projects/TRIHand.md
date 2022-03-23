@@ -101,9 +101,9 @@ The bigger problem is joint couping, the rolling joint makes it possible to rout
 
 The rolling joint and the wire coupling problem is shown below.
 
-![RolingJointAnimation](/website/assets/images/32HandRolling.gif =100x20)
+![RolingJointAnimation](/website/assets/images/32HandRolling.gif =x320)
 
-![RollingJointConservation](/website/assets/images/33conservation.jpg)
+![RollingJointConservation](/website/assets/images/33conservation.jpg =x320)
 
 (workspace)
 
