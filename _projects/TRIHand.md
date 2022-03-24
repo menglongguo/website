@@ -116,13 +116,23 @@ This first version was meant to be (explain the context as a quick build)
 
 The decision of 3 fingers with each a specialty and the springs to restore to save wire routing.
 
-<img src="/website/assets/images/33hand1.gif" alt="RolingJointAnimation" width="450"/>
+<img src="/website/assets/images/33hand1.jpg" alt="hand1" width="450"/>
 
 Finish? the cad and put it in
 
-(Video of it being controlled- combined)
+<img src="/website/assets/images/37Hand1Free.gifg" alt="hand1" width="450"/>
 
-[click to show more of the electronics]
+<img src="/website/assets/images/38Hand1Grasp.gif" alt="hand1" width="450"/>
+
+
+<details><summary>[Click for Details]</summary>
+
+ <img src="/website/assets/images/35ControlGlove.jpg" alt="control glove" width="500" height="600">
+
+ <img src="/website/assets/images/36ElectronicSetup.jpg" alt="electronic glove" width="500" height="600">
+
+</details>
+
 
 
 
