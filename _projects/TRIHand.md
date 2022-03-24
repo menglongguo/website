@@ -36,8 +36,8 @@ A model of the arm:
 The complexity of the challenge stems from the environment robotic hands are trying to be deployed in.
 Currently, most robotic applications in industry (assembly line arms, CNC machines) are position-controlled and avoids contacts but manipulation is built on controlling forces and contacts with objects/environment. 
 Robotic research, on the other hand, is trying to push robots into the home environment.
-This requires robots safely doing human tasks at human speeds while navigating an environment built for humans. 
-Compare that to the clutter-free, human-free, predictable environments that the current robots are operating in.
+This requires robots safely doing human tasks at human speeds while navigating an unstructured environment. 
+Compare that to the clutter-free, human-free, predictable factory settings that the current robots are operating in, there are a lot of challenges to account for the clutter, safety, and object collision.
 
 
 To illustrate the complexity of this design space, below is a snapshot of many robotic hands in the field.
@@ -87,16 +87,17 @@ To decide what types of grasping functions the hand should be able to achieve, I
 A lot of research has been done to categorize the grasps we do as humans.
 Looking at this chart, there are 30+ grasps and a major distinction relies on the thumb's opposability.
 
-*"The GRASP Taxonomy of Human Grasp Types"(T. Feix, J. Romero, H. Schmiedmayer, A. Dollar, D. Kragic)*
-![Chart 1](/website/assets/images/39GraspChart1.png)
+<span class="emphasized"> "The GRASP Taxonomy of Human Grasp Types"(T. Feix, J. Romero, H. Schmiedmayer, A. Dollar, D. Kragic)</span>
+<img src="/website/assets/images/39GraspChart1.png" alt="Chart 1" width="450" >
 
 The minimum number of point contact to maintain the stability of a grasped object in 3d space is 3, so 3 fingers were chosen to reduce complexity.
 This also means that certain grasps cannot be achieved.
 It is infeasible to achieve all 30+, so we looked primarily at the top 10 most used grasps.
 The fewest degree of freedom was chosen to achieve as much of these grasps as possible.
 
-*"Grasp frequency and usage in daily household and machine shop tasks"(I. Bullock, J. Zheng, S. LaRosa, C. Guertler, A. Dollar)*
-![Chart 1](/website/assets/images/310GraspChart2.png)
+<span class="emphasized">"Grasp frequency and usage in daily household and machine shop tasks"(I. Bullock, J. Zheng, S. LaRosa, C. Guertler, A. Dollar)</span>
+<img src="/website/assets/images/310GraspChart2.gif" alt="Chart 2" width="450" >
+
 
 
 </details>
@@ -110,8 +111,7 @@ Although a tendon transmission is doable for a revolute joint, a pulley is neede
 The bigger problem is joint couping, the rolling joint makes it possible to route wires so that more distal joint aren't coupled to more proximal joints. 
 
 
-The rolling joint and the wire coupling problem is shown below.
-
+The rolling joint and how it solves the wire coupling problem is shown below.
 
 <img src="/website/assets/images/32HandRolling.gif" alt="RolingJointAnimation" width="500"/>
 
@@ -123,7 +123,9 @@ The rolling joint and the wire coupling problem is shown below.
 ---
 ### First Prototype
 
-This first version was meant to be (explain the context as a quick build)
+This first version was a good learning block and testing ground for a couple of ideas that will be improved upon in future version.
+All 6 motors were built into the palm, it was as compact as it could get, so adding another actuator would require expanding off the hand.
+Each finger has a different number of actuator for better specialization.
 
 The decision of 3 fingers with each a specialty and the springs to restore to save wire routing.
 
