@@ -101,7 +101,6 @@ The bigger problem is joint couping, the rolling joint makes it possible to rout
 
 The rolling joint and the wire coupling problem is shown below.
 
-![RolingJointAnimation](/website/assets/images/32HandRolling.gif)
 
 <img src="/website/assets/images/32HandRolling.gif" alt="RolingJointAnimation" width="450"/>
 
@@ -117,7 +116,7 @@ This first version was meant to be (explain the context as a quick build)
 
 The decision of 3 fingers with each a specialty and the springs to restore to save wire routing.
 
-(Image of the thing and description)
+<img src="/website/assets/images/33hand1.gif" alt="RolingJointAnimation" width="450"/>
 
 Finish? the cad and put it in
 
