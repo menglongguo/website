@@ -88,7 +88,7 @@ A lot of research has been done to categorize the grasps we do as humans.
 Looking at this chart, there are 30+ grasps and a major distinction relies on the thumb's opposability.
 <br>
 <img src="/website/assets/images/39GraspChart1.png" alt="Chart 1" width="450" >
-"The GRASP Taxonomy of Human Grasp Types"(T. Feix, J. Romero, H. Schmiedmayer, A. Dollar, D. Kragic)
+<br>"The GRASP Taxonomy of Human Grasp Types"(T. Feix, J. Romero, H. Schmiedmayer, A. Dollar, D. Kragic)
 
 <br>The minimum number of point contact to maintain the stability of a grasped object in 3d space is 3, so 3 fingers were chosen to reduce complexity.
 This also means that certain grasps cannot be achieved.
@@ -96,8 +96,8 @@ It is infeasible to achieve all 30+, so we looked primarily at the top 10 most u
 The fewest degree of freedom was chosen to achieve as much of these grasps as possible.
 
 <img src="/website/assets/images/310GraspChart2.gif" alt="Chart 2" width="450" >
-"Grasp frequency and usage in daily household and machine shop tasks"(I. Bullock, J. Zheng, S. LaRosa, C. Guertler, A. Dollar)
- test
+<br>"Grasp frequency and usage in daily household and machine shop tasks"(I. Bullock, J. Zheng, S. LaRosa, C. Guertler, A. Dollar)
+\
 </details>
 
 The topology chosen was 7 DOF with 3 fingers including a thumb that allows for finger opposition.
