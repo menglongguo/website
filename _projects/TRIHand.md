@@ -87,17 +87,17 @@ To decide what types of grasping functions the hand should be able to achieve, I
 A lot of research has been done to categorize the grasps we do as humans.
 Looking at this chart, there are 30+ grasps and a major distinction relies on the thumb's opposability.
 
-<span class="emphasized"> "The GRASP Taxonomy of Human Grasp Types"(T. Feix, J. Romero, H. Schmiedmayer, A. Dollar, D. Kragic)</span>
 <img src="/website/assets/images/39GraspChart1.png" alt="Chart 1" width="450" >
+"The GRASP Taxonomy of Human Grasp Types"(T. Feix, J. Romero, H. Schmiedmayer, A. Dollar, D. Kragic)
+
 
 The minimum number of point contact to maintain the stability of a grasped object in 3d space is 3, so 3 fingers were chosen to reduce complexity.
 This also means that certain grasps cannot be achieved.
 It is infeasible to achieve all 30+, so we looked primarily at the top 10 most used grasps.
 The fewest degree of freedom was chosen to achieve as much of these grasps as possible.
 
-<span class="emphasized">"Grasp frequency and usage in daily household and machine shop tasks"(I. Bullock, J. Zheng, S. LaRosa, C. Guertler, A. Dollar)</span>
 <img src="/website/assets/images/310GraspChart2.gif" alt="Chart 2" width="450" >
-
+"Grasp frequency and usage in daily household and machine shop tasks"(I. Bullock, J. Zheng, S. LaRosa, C. Guertler, A. Dollar)
 
 
 </details>
