@@ -119,7 +119,7 @@ The decision of 3 fingers with each a specialty and the springs to restore to sa
 <img src="/website/assets/images/34hand1.jpg" alt="hand1"/>
 
 
-<div class="stlwv2-model" data-model-url="/website/assets/models/TRIHand1.STL"></div>
+<div class="stlwv2-model" data-model-url="/website/assets/models/TRIHand1_1.STL"></div>
 
 <img src="/website/assets/images/37Hand1Free.gif" alt="hand1" width="500"/>
 
