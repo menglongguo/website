@@ -116,7 +116,7 @@ This first version was meant to be (explain the context as a quick build)
 
 The decision of 3 fingers with each a specialty and the springs to restore to save wire routing.
 
-<img src="/website/assets/images/33hand1.jpg" alt="hand1" width="450"/>
+<img src="/website/assets/images/34hand1.jpg" alt="hand1" width="450"/>
 
 Finish? the cad and put it in
 
@@ -132,8 +132,6 @@ Finish? the cad and put it in
  <img src="/website/assets/images/36ElectronicSetup.jpg" alt="electronic glove" width="500" >
 
 </details>
-
-
 
 
 ---
