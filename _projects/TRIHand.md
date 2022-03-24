@@ -6,10 +6,10 @@ stlwv2_models: yes
 type: research
 ---
 
-This was my main research project through my Master's under Professor Kim ([BRL Group](https://biomimetics.mit.edu/)) at MIT. 
-Most projects are continuations of a previous student's work, this was a completely new project in an area new to our lab: manipulation. 
+This was my main research project through my Master's under Professor Sangbae Kim ([BRL Group](https://biomimetics.mit.edu/)) at MIT. 
+Although most research projects are continuations of a previous student's work, this was a completely new project in an area new to our lab: manipulation. 
 
-The project was to build a robotic hand for the home environment in collaboration with Toyota Research Institute and 4 other labs at MIT ([Perceptual Science](http://persci.mit.edu/), [MCube](https://mcube.mit.edu/), [CDFG](https://cdfg.mit.edu/wojciech),   [Improbabl AI](https://people.csail.mit.edu/pulkitag/), ).
+The project was to build a robotic hand for the home environment in collaboration with [Toyota Research Institute] (https://www.tri.global/) and 4 other labs at MIT ([Perceptual Science](http://persci.mit.edu/), [MCube](https://mcube.mit.edu/), [CDFG](https://cdfg.mit.edu/wojciech),   [Improbabl AI](https://people.csail.mit.edu/pulkitag/), ).
 As the only member in our lab working on the project, I had a lot of freedom to explore but the design space of hand design is very complex. 
 Compare to my previous hand project, we wanted far more functionality by adding more DOF while maintaining robustness even with the added complexity.
 
@@ -33,21 +33,21 @@ A model of the arm:
 ---
 ### Problem Statement
 
-To understand the complexity of the challenge, it's good to evaluate the past present and future of robotic manipulation. 
-In the past, most robotic applications in industry (assembly line arms, CNC machines) are position-controlled and minimized contacts  but manipulation is built on force control and embraces contacts with objects/environment. 
-The current goal of roboticists is to get robots into the home.
-This requires robots safely doing human tasks at human speeds while navigating an environment built for humans as opposed to the clutter-free and predictable factory floor built for robots.
-The future of manipulation is to be able to build something that can emulate the functionality of our own hand.
-This dream is to emulate an extraordinary intricate machine with 27 joints and 34 muscles able to twirl pencil and hit 100 mph home runs.
+The complexity of the challenge stems from the environment robotic hands are trying to be deployed in.
+Currently, most robotic applications in industry (assembly line arms, CNC machines) are position-controlled and avoids contacts but manipulation is built on controlling forces and contacts with objects/environment. 
+Robotic research, on the other hand, is trying to push robots into the home environment.
+This requires robots safely doing human tasks at human speeds while navigating an environment built for humans. 
+Compare that to the clutter-free, human-free, predictable environments that the current robots are operating in.
+
 
 To illustrate the complexity of this design space, below is a snapshot of many robotic hands in the field.
 
-pictures of grippers
+(pictures of grippers)
 
 Here are the design axis and variables that maps this incredibly complex space:
 
 - Topology:
-The number of fingers, degree-of-freedom (DOF) of each finger, and opposability fo the fingers affect the functionality of the hand in its grasp orientation.
+The number of fingers, degree-of-freedom (DOF) of each finger, and opposability fo the fingers determines the grasp types a hand can perform.
 The more DOF, the more complex it becomes with more moving parts, more difficult wiring routes, and more limited control bandwidth. 
 
 - Geometry: 
@@ -80,15 +80,26 @@ This constricts the size of the motor's themselves if you have to put all the ac
 
 The way I approached this space was to first fix the topology and geometry and let that dictate the other variables.
 The goal was to maximize the functionality with the simplest topology.
-To decide what types of grasping function the hand should be able to achieve, I went into the human grasp taxonomy literature to use human hand's as a baseline.
+To decide what types of grasping functions the hand should be able to achieve, I went into the human grasp taxonomy literature to use human hand's as a baseline.
 
 <details><summary>[Click for Details]</summary>
 
-(go into details with the grasp taxonomy stuff)
- <img src="/website/assets/images/1HandsPbrighter.jpg" alt="test" width="500" height="600">
+A lot of research has been done to categorize the grasps we do as humans.
+Looking at this chart, there are 30+ grasps and a major distinction relies on the thumb's opposability.
+
+*"The GRASP Taxonomy of Human Grasp Types"(T. Feix, J. Romero, H. Schmiedmayer, A. Dollar, D. Kragic)*
+![Chart 1](/website/assets/images/39GraspChart1.png)
+
+The minimum number of point contact to maintain the stability of a grasped object in 3d space is 3, so 3 fingers were chosen to reduce complexity.
+This also means that certain grasps cannot be achieved.
+It is infeasible to achieve all 30+, so we looked primarily at the top 10 most used grasps.
+The fewest degree of freedom was chosen to achieve as much of these grasps as possible.
+
+*"Grasp frequency and usage in daily household and machine shop tasks"(I. Bullock, J. Zheng, S. LaRosa, C. Guertler, A. Dollar)*
+![Chart 1](/website/assets/images/310GraspChart2.png)
+
 
 </details>
-(Both dollar charts)
 
 The topology chosen was 7 DOF with 3 fingers including a thumb that allows for finger opposition.
 ![Topology](/website/assets/images/31HandTopology.gif)
