@@ -98,8 +98,7 @@ The fewest degree of freedom was chosen to achieve as much of these grasps as po
 
 <img src="/website/assets/images/310GraspChart2.gif" alt="Chart 2" width="450" >
 "Grasp frequency and usage in daily household and machine shop tasks"(I. Bullock, J. Zheng, S. LaRosa, C. Guertler, A. Dollar)
-
-
+ test
 </details>
 
 The topology chosen was 7 DOF with 3 fingers including a thumb that allows for finger opposition.
