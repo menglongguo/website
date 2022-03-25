@@ -1,11 +1,12 @@
 ---
-title: Robotic Hand for Human-like Tasks
+title: Fingertip Sensor for Haptic Manipulation
 year: Spring 21  - Present
-order: 106
+order: 105
 stlwv2_models: yes
 type: research
 ---
 
+Alongside
 This was my main research project through my Master's under Professor Sangbae Kim ([BRL Group](https://biomimetics.mit.edu/)) at MIT. 
 Although most research projects are continuations of a previous student's work, this was a completely new project in an area new to our lab: manipulation. 
 
