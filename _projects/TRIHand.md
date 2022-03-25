@@ -13,7 +13,7 @@ The project was to build a robotic hand for the home environment in collaboratio
 As the only member in our lab working on the project, I had a lot of freedom to explore but the design space of hand design is very complex. 
 Compare to my previous hand project, we wanted far more functionality by adding more DOF while maintaining robustness even with the added complexity.
 
-(Instead of video have a gif)
+<img src="/website/assets/images/3HandFull.jpg" alt="CoverShot" width="500"/>
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/RCQNIgySaYw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
@@ -158,13 +158,17 @@ The arduino also reports the joint position and current (both commanded and actu
 ### Second Prototype
 
 In the second prototype, many changes were implemented from the lessons learned from the first.
+Physically, it is more reactive and robust with less friction (although that came at the cost of more pulleys and complexity)
+The bandwidth and speed of the hand increased quite a lot as the electronics was upgraded from an arduino to a STM microcontroller.
+In addition, the fingertips are easily exchangeable to fit the new sensors I have designed (see page for more details).
+
 <img src="/website/assets/images/311Upgrades.jpg" alt="upgrades" width="600" >
 
 <div class="stlwv2-model" data-model-url="/website/assets/models/TRIHand2.STL"></div>
 
 (wire routing picture)
 
-(cad of it)
+
 
 
 
