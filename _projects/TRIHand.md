@@ -13,9 +13,8 @@ The project was to build a robotic hand for the home environment in collaboratio
 As the only member in our lab working on the project, I had a lot of freedom to explore but the design space of hand design is very complex. 
 Compare to my previous hand project, we wanted far more functionality by adding more DOF while maintaining robustness even with the added complexity.
 
-<img src="/website/assets/images/3HandFull.jpg" alt="CoverShot" width="500"/>
+<img src="/website/assets/images/3HandFull.jpg" alt="CoverShot" width="650"/>
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/RCQNIgySaYw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 <!--
 <details><summary>Hello</summary>
@@ -143,7 +142,7 @@ The grasping capabilities of the hand.
 
 <details><summary>[Click for Electronics Details]</summary>
 
-A control glove was design to map the user's joint command to the hand.
+A control glove was designed to map the user's joint command to the hand.
 The user would move the hand and the potentiometers attached to the arduino will map the joint space of the human hand to that of the robot.
 The arduino also reports the joint position and current (both commanded and actual) to the computer to be live-plotted in matlab for troubleshooting and data-collection.
 
