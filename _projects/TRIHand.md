@@ -160,7 +160,7 @@ The arduino also reports the joint position and current (both commanded and actu
 In the second prototype, many changes were implemented from the lessons learned from the first.
 <img src="/website/assets/images/311Upgrades.jpg" alt="upgrades" width="600" >
 
-
+<div class="stlwv2-model" data-model-url="/website/assets/models/TRIHand2.STL"></div>
 
 (wire routing picture)
 
