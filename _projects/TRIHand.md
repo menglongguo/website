@@ -82,7 +82,7 @@ The way I approached this space was to first fix the topology and geometry and l
 The goal was to maximize the functionality with the simplest topology.
 To decide what types of grasping functions the hand should be able to achieve, I went into the human grasp taxonomy literature to use human hand's as a baseline.
 
-<details><summary>[Click for Details]</summary>
+<details><summary>[Click for Taxonomy Details]</summary>
 
 A lot of research has been done to categorize the grasps we do as humans.
 Looking at this chart, there are 30+ grasps and a major distinction relies on the thumb's opposability.
@@ -141,11 +141,15 @@ The grasping capabilities of the hand.
 <img src="/website/assets/images/38Hand1Grasp.gif" alt="hand1grasp" width="500"/>
 
 
-<details><summary>[Click for Details]</summary>
+<details><summary>[Click for Electronics Details]</summary>
 
- <img src="/website/assets/images/35ControlGlove.jpg" alt="control glove" width="500" >
+A control glove was design to map the user's joint command to the hand.
+The user would move the hand and the potentiometers attached to the arduino will map the joint space of the human hand to that of the robot.
+The arduino also reports the joint position and current (both commanded and actual) to the computer to be live-plotted in matlab for troubleshooting and data-collection.
 
- <img src="/website/assets/images/36ElectronicSetup.jpg" alt="electronic glove" width="500" >
+<img src="/website/assets/images/35ControlGlove.jpg" alt="control glove" width="500" >
+
+<img src="/website/assets/images/36ElectronicSetup.jpg" alt="electronic glove" width="500" >
 
 </details>
 
@@ -153,7 +157,10 @@ The grasping capabilities of the hand.
 ---
 ### Second Prototype
 
-(The big changes)
+In the second prototype, many changes were implemented from the lessons learned from the first.
+<img src="/website/assets/images/311Upgrades.jpg" alt="upgrades" width="600" >
+
+
 
 (wire routing picture)
 
