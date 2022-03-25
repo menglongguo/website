@@ -1,7 +1,7 @@
 ---
 title: Robotic Hand for Human-like Tasks
 year: Spring 21  - Present
-order: 11
+order: 106
 stlwv2_models: yes
 type: research
 ---
@@ -106,7 +106,7 @@ The topology chosen was 7 DOF with 3 fingers including a thumb that allows for f
 7 Dof with 6 motors (one finger underactuated) would be difficult to have all actuation in the hand, so using tendon transmission allows for remote actuation.
 Remote actuation also allows for any form factor, a small dynamixel was chosen to minimize weight and size. 
 Although a tendon transmission is doable for a revolute joint, a pulley is needed for constant length retraction.
-The bigger problem is joint couping, the rolling joint makes it possible to route wires so that more distal joint aren't coupled to more proximal joints. 
+The bigger problem is joint couping, the rolling joint makes it possible to route wires so that more distal (far from the palm) joint aren't coupled to more proximal (close to palm) joints. 
 
 
 The rolling joint and how it solves the wire coupling problem is shown below.
@@ -165,8 +165,15 @@ In addition, the fingertips are easily exchangeable to fit the new sensors I hav
 
 <div class="stlwv2-model" data-model-url="/website/assets/models/TRIHand2.STL"></div>
 
-(wire routing picture)
+The tendon routing was quite complicated to design, especially for the thumb that have 3 dof with an abduction joint not in plane as the distal and proximal phalange.
+The pictures below show the 2 pair of wires in the thumb.
+The red and green wires are the pair for the distal phalange that has to travel through the abduction joint and proximal phalange.
+The light red and light green wires are the pair for the proximal phalange that only has to travel through the abduction joint.
 
+<img src="/website/assets/images/3HandCable1.jpg" alt="upgrades" width="600" >
+<img src="/website/assets/images/3HandCable2.jpg" alt="upgrades" width="300" >
+<img src="/website/assets/images/3HandCable3.jpg" alt="upgrades" width="600" >
+<img src="/website/assets/images/3HandCable4.jpg" alt="upgrades" width="600" >
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/WFKvJfAqSUY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
