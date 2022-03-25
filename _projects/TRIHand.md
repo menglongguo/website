@@ -13,8 +13,8 @@ The project was to build a robotic hand for the home environment in collaboratio
 As the only member in our lab working on the project, I had a lot of freedom to explore but the design space of hand design is very complex. 
 Compare to my previous hand project, we wanted far more functionality by adding more DOF while maintaining robustness even with the added complexity.
 
-<img src="/website/assets/images/3HandFull.jpg" alt="CoverShot" width="650"/>
-
+<img src="/website/assets/images/3HandFull_2.jpg" alt="CoverShot1" width="650"/>
+<img src="/website/assets/images/3HandFull.jpg" alt="CoverShot2" width="650"/>
 
 <!--
 <details><summary>Hello</summary>
@@ -41,7 +41,7 @@ Compare that to the clutter-free, human-free, predictable factory settings that 
 
 To illustrate the complexity of this design space, below is a snapshot of many robotic hands in the field.
 
-(pictures of grippers)
+<img src="/website/assets/images/3Designspace.jpg" alt="hands" width="650"/>
 
 Here are the design axis and variables that maps this incredibly complex space:
 
@@ -168,6 +168,7 @@ In addition, the fingertips are easily exchangeable to fit the new sensors I hav
 (wire routing picture)
 
 
+<iframe width="560" height="315" src="https://youtu.be/WFKvJfAqSUY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
 
