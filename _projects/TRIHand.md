@@ -9,7 +9,7 @@ type: research
 This was my main research project through my Master's under Professor Sangbae Kim ([BRL Group](https://biomimetics.mit.edu/)) at MIT. 
 Although most research projects are continuations of a previous student's work, this was a completely new project in an area new to our lab: manipulation. 
 
-The project was to build a robotic hand for the home environment in collaboration with [Toyota Research Institute] (https://www.tri.global/) and 4 other labs at MIT ([Perceptual Science](http://persci.mit.edu/), [MCube](https://mcube.mit.edu/), [CDFG](https://cdfg.mit.edu/wojciech),   [Improbabl AI](https://people.csail.mit.edu/pulkitag/), ).
+The project was to build a robotic hand for the home environment in collaboration with [Toyota Research Institute] (https://www.tri.global/) and 4 other labs at MIT ([Perceptual Science](http://persci.mit.edu/), [MCube](https://mcube.mit.edu/), [CDFG](https://cdfg.mit.edu/wojciech),   [Improbabl AI](https://people.csail.mit.edu/pulkitag/)).
 As the only member in our lab working on the project, I had a lot of freedom to explore but the design space of hand design is very complex. 
 Compare to my previous hand project, we wanted far more functionality by adding more DOF while maintaining robustness even with the added complexity.
 
@@ -89,16 +89,17 @@ Looking at this chart, there are 30+ grasps and a major distinction relies on th
 <br>
 <img src="/website/assets/images/39GraspChart1.png" alt="Chart 1" width="450" >
 <br>"The GRASP Taxonomy of Human Grasp Types"(T. Feix, J. Romero, H. Schmiedmayer, A. Dollar, D. Kragic)
-
+<br>
 <br>The minimum number of point contact to maintain the stability of a grasped object in 3d space is 3, so 3 fingers were chosen to reduce complexity.
 This also means that certain grasps cannot be achieved.
 It is infeasible to achieve all 30+, so we looked primarily at the top 10 most used grasps.
 The fewest degree of freedom was chosen to achieve as much of these grasps as possible.
-
+<br>
 <img src="/website/assets/images/310GraspChart2.gif" alt="Chart 2" width="450" >
 <br>"Grasp frequency and usage in daily household and machine shop tasks"(I. Bullock, J. Zheng, S. LaRosa, C. Guertler, A. Dollar)
-\
+<br>
 </details>
+
 
 The topology chosen was 7 DOF with 3 fingers including a thumb that allows for finger opposition.
 ![Topology](/website/assets/images/31HandTopology.gif)
@@ -121,19 +122,22 @@ The rolling joint and how it solves the wire coupling problem is shown below.
 ---
 ### First Prototype
 
-This first version was a good learning block and testing ground for a couple of ideas that will be improved upon in future version.
+This first version was a good testing ground for a couple of ideas that will be improved upon in future version.
 All 6 motors were built into the palm, it was as compact as it could get, so adding another actuator would require expanding off the hand.
 Each finger has a different number of actuator for better specialization.
-
-The decision of 3 fingers with each a specialty and the springs to restore to save wire routing.
+A spring was used as the antagonistic tendon to restore the hand to the resting position. 
 
 <img src="/website/assets/images/34hand1.jpg" alt="hand1"/>
 
+A cad of the hand model:
 
 <div class="stlwv2-model" data-model-url="/website/assets/models/TRIHand1_1.STL"></div>
 
+The free motion control using a control glove through arduino and logging through matlab. 
+
 <img src="/website/assets/images/37Hand1Free.gif" alt="hand1" width="500"/>
 
+The grasping capabilities of the hand.
 <img src="/website/assets/images/38Hand1Grasp.gif" alt="hand1grasp" width="500"/>
 
 
