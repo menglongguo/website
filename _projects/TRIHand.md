@@ -182,9 +182,9 @@ The hand and arm was control using a human operator via teleoperation, the limit
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/_ziXoVCXk-w" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-In addition to tele-operation, the hand's low friction and motor backdrivability has inpsired some possible exploration in proprioception.
+In addition to tele-operation, the hand's low friction and motor backdrivability has inspired some possible exploration in proprioception.
 In the test videos below, the hand is sensing the external forces through the current readings at the motor (hard to see in the first video but the left middle graph on the Matlab interface has jolts corresponding to the touches).
-Using this a very rough reflex can be created to automatically close when detecting contact (a possible area for more research exploration in the future).
+Using this, a very rough reflex can be created to automatically close when detecting contact (a possible area for more research exploration in the future).
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/2QKSCnbaOX4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
