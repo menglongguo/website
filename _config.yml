@@ -23,6 +23,13 @@ baseurl: "/website" # the subpath of your site, e.g. /blog
 theme: jekyll-theme-hacker
 # source: .
 
+# Analytics
+analytics:
+  provider               : google-universal # false (default), "google", "google-universal", "custom"
+  google:
+    tracking_id          : G-9MRBRC7QDR
+    anonymize_ip         : # true, false (default)
+
 collections:
   projects:
     output: true
