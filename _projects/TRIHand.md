@@ -9,7 +9,7 @@ type: research
 This was my main research project through my Master's under Professor Sangbae Kim ([BRL Group](https://biomimetics.mit.edu/)) at MIT. 
 Although most research projects are continuations of a previous student's work, this was a completely new project in an area new to our lab: manipulation. 
 
-The project was to build a robotic hand for the home environment in collaboration with [Toyota Research Institute] (https://www.tri.global/) and 4 other labs at MIT ([Perceptual Science](http://persci.mit.edu/), [MCube](https://mcube.mit.edu/), [CDFG](https://cdfg.mit.edu/wojciech),   [Improbabl AI](https://people.csail.mit.edu/pulkitag/)).
+The project was to build a robotic hand for the home environment in collaboration with [Toyota Research Institute](https://www.tri.global/) and 4 other labs at MIT ([Perceptual Science](http://persci.mit.edu/), [MCube](https://mcube.mit.edu/), [CDFG](https://cdfg.mit.edu/wojciech),   [Improbabl AI](https://people.csail.mit.edu/pulkitag/)).
 As the only member in our lab working on the project, I had a lot of freedom to explore but the design space of hand design is very complex. 
 Compare to my previous hand project, we wanted far more functionality by adding more DOF while maintaining robustness even with the added complexity.
 
