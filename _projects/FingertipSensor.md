@@ -9,7 +9,7 @@ type: research2
 Alongside my main research project (the Robotic Hand), I continued a previous student's work on a fingertip sensor.
 (background of the project)
 (introduce the people (lindsey and Chuah) as well as andrew and adi that helped)
-(lay out how most of this will be revamping the old method to the new one)
+(lay out how most of this will be revamping the old method to the new one- documentation, reverse-engineering, system-design, manufacturing, troubleshooting, matlab)
 ---
 ### Problem Statement
 
@@ -20,7 +20,7 @@ what is the end product and goal
 ---
 ### Upgrade to the Manufacturing Process
 
-<img src="/website/assets/images/FingertipSensorTest.gif" alt="hands" width="650"/>
+<img src="/website/assets/images/41ProcessFull.jpg" alt="process" width="650"/>
 
 
 
@@ -28,10 +28,17 @@ what is the end product and goal
 ### Plans for future design
 
 
-
+---
+### Applications
 
 ---
 ### Troubleshooting
+
+wire saga
+
+new material saga
+
+
 
 
 
