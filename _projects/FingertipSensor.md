@@ -8,8 +8,8 @@ type: research2
 
 Alongside my main research project (the Robotic Hand), I continued the current project on a fingertip sensor.
 The motivation of the project was to develop a sensor to be mounted at the end of a robotic hand/end-effector that can sense the direction of external forces and the location of the contact.
-This work was a continuation of Michael Chuah's PhD research and Lindsey Epstein's Master's thesis.
-While I worked mostly on the manufacturing, training software, and integration, Andrew Salatous and Adi Mehrota worked on building the testing platform and the sensor electronics.
+This work was a continuation of [Michael Chuah's](https://www.linkedin.com/in/michaelchuah/) PhD research and [Lindsey Epstein's](https://www.linkedin.com/in/lindsay-epstein-60337a111/) Master's thesis.
+While I worked mostly on the manufacturing, training software, and integration, [Andrew Salatous](https://www.linkedin.com/in/andrewsaloutos/) and [Adi Mehrota](https://www.linkedin.com/in/aditya-mehrotra/) worked on building the testing platform and the sensor electronics.
 As this project required reverse-engineering and improving an existing system, it focused more on data analysis, documentation, system-design, manufacturing, and troubleshooting.
 
 ---
@@ -56,9 +56,21 @@ As a result, it gave a lot of opportunities to improve the process along with a 
 The half-sphere design is quite useful in many applications (see below) but it can be augmented for more sensing area.
 This new design has around 2.5 times more sensing area and 
 
+<img src="/website/assets/images/43Sphere1.JPG" alt="process" width="650"/>
+<img src="/website/assets/images/43Sphere2.jpg" alt="process" width="650"/>
+<img src="/website/assets/images/43Sphere3.jpg" alt="process" width="650"/>
+<img src="/website/assets/images/43Sphere4.jpg" alt="process" width="650"/>
 
 ---
 ### Applications
+
+(Talk about finger magnet)
+<iframe width="560" height="315" src="https://www.youtube.com/embed/j2KS7hLpRJE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+(talk about regrasp)
+<iframe width="560" height="315" src="https://www.youtube.com/embed/zCNUWmhFmEU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+(future stuff)
 
 ---
 ### Troubleshooting

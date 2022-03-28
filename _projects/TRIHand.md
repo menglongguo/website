@@ -81,7 +81,7 @@ The way I approached this space was to first fix the topology and geometry and l
 The goal was to maximize the functionality with the simplest topology.
 To decide what types of grasping functions the hand should be able to achieve, I went into the human grasp taxonomy literature to use human hand's as a baseline.
 
-<details><summary>[Click for Taxonomy Details]</summary>
+<details><summary><b><[Click for Taxonomy Details]</b></summary>
 
 A lot of research has been done to categorize the grasps we do as humans.
 Looking at this chart, there are 30+ grasps and a major distinction relies on the thumb's opposability.
@@ -100,13 +100,13 @@ The fewest degree of freedom was chosen to achieve as much of these grasps as po
 </details>
 
 
-The topology chosen was 7 DOF with 3 fingers including a thumb that allows for finger opposition.
+The topology chosen was 7 DOF with 3 fingers including a thumb that allows for finger opposition, this allows for a wide enough array of grasp shapes.
 ![Topology](/website/assets/images/31HandTopology.gif)
 
 7 Dof with 6 motors (one finger underactuated) would be difficult to have all actuation in the hand, so using tendon transmission allows for remote actuation.
 Remote actuation also allows for any form factor, a small dynamixel was chosen to minimize weight and size. 
 Although a tendon transmission is doable for a revolute joint, a pulley is needed for constant length retraction.
-The bigger problem is joint couping, the rolling joint makes it possible to route wires so that more distal (far from the palm) joint aren't coupled to more proximal (close to palm) joints. 
+The bigger problem is joint couping, the rolling joint makes it possible to route wires so that distal joints (far from the palm) aren't coupled to proximal (close to palm) joints.
 
 
 The rolling joint and how it solves the wire coupling problem is shown below.
@@ -114,8 +114,6 @@ The rolling joint and how it solves the wire coupling problem is shown below.
 <img src="/website/assets/images/32HandRolling.gif" alt="RolingJointAnimation" width="400"/>
 
 ![RollingJointConservation](/website/assets/images/33conservation.jpg)
-
-(workspace)
 
 
 ---
@@ -140,7 +138,7 @@ The grasping capabilities of the hand.
 <img src="/website/assets/images/38Hand1Grasp.gif" alt="hand1grasp" width="500"/>
 
 
-<details><summary>[Click for Electronics Details]</summary>
+<details><summary><b><[Click for Electronics Details]</b></summary>
 
 A control glove was designed to map the user's joint command to the hand.
 The user would move the hand and the potentiometers attached to the arduino will map the joint space of the human hand to that of the robot.
@@ -165,7 +163,7 @@ In addition, the fingertips are easily exchangeable to fit the new sensors I hav
 
 <div class="stlwv2-model" data-model-url="/website/assets/models/TRIHand2.STL"></div>
 
-The tendon routing was quite complicated to design, especially for the thumb that have 3 dof with an abduction joint not in plane as the distal and proximal phalange.
+The tendon routing was quite intricate to design, especially for the thumb that have 3 dof with an abduction joint not in plane as the distal and proximal phalange.
 The pictures below show the 2 pair of wires in the thumb.
 The red and green wires are the pair for the distal phalange that has to travel through the abduction joint and proximal phalange.
 The light red and light green wires are the pair for the proximal phalange that only has to travel through the abduction joint.
