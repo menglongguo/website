@@ -81,7 +81,7 @@ The way I approached this space was to first fix the topology and geometry and l
 The goal was to maximize the functionality with the simplest topology.
 To decide what types of grasping functions the hand should be able to achieve, I went into the human grasp taxonomy literature to use human hand's as a baseline.
 
-<details><summary><b><[Click for Taxonomy Details]</b></summary>
+<details><summary><b>[Click for Taxonomy Details]</b></summary>
 
 A lot of research has been done to categorize the grasps we do as humans.
 Looking at this chart, there are 30+ grasps and a major distinction relies on the thumb's opposability.
@@ -138,7 +138,7 @@ The grasping capabilities of the hand.
 <img src="/website/assets/images/38Hand1Grasp.gif" alt="hand1grasp" width="500"/>
 
 
-<details><summary><b><[Click for Electronics Details]</b></summary>
+<details><summary><b>[Click for Electronics Details]</b></summary>
 
 A control glove was designed to map the user's joint command to the hand.
 The user would move the hand and the potentiometers attached to the arduino will map the joint space of the human hand to that of the robot.
