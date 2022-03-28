@@ -10,6 +10,7 @@ Alongside my main research project (the Robotic Hand), I continued the current p
 The motivation of the project was to develop a sensor to be mounted at the end of a robotic hand/end-effector that can sense the direction of external forces and the location of the contact.
 This work was a continuation of [Michael Chuah's](https://www.linkedin.com/in/michaelchuah/) PhD research and [Lindsey Epstein's](https://www.linkedin.com/in/lindsay-epstein-60337a111/) Master's thesis.
 While I worked mostly on the manufacturing, training software, and integration, [Andrew Salatous](https://www.linkedin.com/in/andrewsaloutos/) and [Adi Mehrota](https://www.linkedin.com/in/aditya-mehrotra/) worked on building the testing platform and the sensor electronics.
+
 As this project required reverse-engineering and improving an existing system, it focused more on data analysis, documentation, system-design, manufacturing, and troubleshooting.
 
 ---
@@ -18,20 +19,24 @@ As this project required reverse-engineering and improving an existing system, i
 The goal is to create a sensor with many design requirements, eventually the paradigm of pressure sensor embedded in an elastomer was settled on:
 
 - Normal and Shear sensing:
+<br>
 In addition to the location of sensing, the forces are vital to determine the nature of the contact with the environment.
 Force Sensistive Resistors (FSR) sense forces as it changes the resistivity of the conductive polymer, but due to delamination from shear forces it was rules out.
 Tactile sensing arrays are usually in a flat form does well in location sensing but not as well for multi-axis force measuring.
 
 - Robust to high impacts: 
+<br>
 Since the focus of our lab is in high force impacts especially as a hand explores the environment, robustness is quite important.
 Although force torque sensors are very accurate, don't survive impacts well due to their high stiffness.
 
 - Lightweight and insensitive to noise:
+<br>
 As the application is at the end of fingers, the lightweight and compact nature are crucial.
 Being insensitive to noise is important as the sensor will be moving around quickly.
 This is another reason why force-torque sensor, which are generally heavier, would introduce a large amount of inertial noise at high accelerations.
 
 - High frequence Response:
+<br>
 The high frequency response is needed as contact and collisions happen at quite high frequencies. 
 The sensors in the end were able to operate at 200hz. 
 This was also the reason to rule out optic-based sensing that rely on a camera to map deformations, which would be too slow for our application.
