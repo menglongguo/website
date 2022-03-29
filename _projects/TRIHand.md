@@ -32,10 +32,10 @@ A model of the arm:
 ---
 ### Problem Statement
 
-The complexity of the challenge stems from the environment robotic hands are trying to be deployed in.
-Currently, most robotic applications in industry (assembly line arms, CNC machines) are position-controlled and avoids contacts but manipulation is built on controlling forces and contacts with objects/environment. 
+The complexity of the challenge stems from the environment robotic hands are trying to be deployed.
+Currently, most robotic applications in industry (assembly line arms, CNC machines) are position-controlled and avoid contacts but manipulation is built on controlling forces and contacts with objects/environment. 
 Robotic research, on the other hand, is trying to push robots into the home environment.
-This requires robots safely doing human tasks at human speeds while navigating an unstructured environment. 
+This requires robots safely do human tasks at human speeds while navigating an unstructured environment. 
 Compare that to the clutter-free, human-free, predictable factory settings that the current robots are operating in, there are a lot of challenges to account for the clutter, safety, and object collision.
 
 
@@ -43,29 +43,29 @@ To illustrate the complexity of this design space, below is a snapshot of many r
 
 <img src="/website/assets/images/3Designspace.jpg" alt="hands" width="650"/>
 
-Here are the design axis and variables that maps this incredibly complex space:
+Here are the design axis and variables that map this incredibly complex space:
 
 - Topology:
-The number of fingers, degree-of-freedom (DOF) of each finger, and opposability fo the fingers determines the grasp types a hand can perform.
+The number of fingers, degree-of-freedom (DOF) of each finger, and opposability of the fingers determines the grasp types a hand can perform.
 The more DOF, the more complex it becomes with more moving parts, more difficult wiring routes, and more limited control bandwidth. 
 
 - Geometry: 
-The shape and material of the finger pad changes its ability to interact with the environment, the thinner the fingers the more able it is to reach into clutter and tight spaces.
+The shape and material of the finger pad change its ability to interact with the environment, the thinner the fingers the more able it is to reach into clutter and tight spaces.
 The shape of the palm affect the size and types of the object it can grasp. 
 
 - Actuation:
-The type of motor used (stepper, bldc, dc with big gearbox) will change the torque-speed curve as well as the rotor inertia (useful in proprioception in collisions).
-The size and shape affects where it can be mounted (in the palm, at the finger joint, or outside the hand).
+The type of motor used (stepper, BLDC, dc with big gearbox) will change the torque-speed curve as well as the rotor inertia (useful in proprioception in collisions).
+The size and shape affect where it can be mounted (in the palm, at the finger joint, or outside the hand).
 
 - Joints:
 The type of joint (revolute, rolling, prismatic) all changes the robustness and complexity of the finger. 
 Deciding if joints are coupled will also change the kinematics and workspace. 
 
 - Transmission:
-Belt and pulley, direct, tendon-driven, and geared transmission all have their benefit and drawback in terms of elasticity, friction, efficiency and complexity.
+Belt and pulley, direct, tendon-driven, and geared transmission all have their benefit and drawback in terms of elasticity, friction, efficiency, and complexity.
 
 - Sensorization:
-What kind of sensor (contact, capcitative, force, proximity) will determine the type of information you can gather and utilize from the environment.
+What kind of sensor (contact, capacitative, force, proximity) will determine the type of information you can gather and utilize from the environment.
 
 <!--
 The complexity of the space is compounded by the inter-dependency of these core design axes. 
@@ -79,7 +79,8 @@ This constricts the size of the motor's themselves if you have to put all the ac
 
 The way I approached this space was to first fix the topology and geometry and let that dictate the other variables.
 The goal was to maximize the functionality with the simplest topology.
-To decide what types of grasping functions the hand should be able to achieve, I went into the human grasp taxonomy literature to use human hand's as a baseline.
+To decide what types of grasping functions the hand should be able to achieve, I went into the human grasp taxonomy literature to use the human hand as a baseline.
+To decide what types of grasping functions the hand should be able to achieve, I went into the human grasp taxonomy literature to use the human hand as a baseline.
 
 <details><summary><b>[Click for Taxonomy Details]</b></summary>
 
@@ -104,12 +105,12 @@ The topology chosen was 7 DOF with 3 fingers including a thumb that allows for f
 ![Topology](/website/assets/images/31HandTopology.gif)
 
 7 Dof with 6 motors (one finger underactuated) would be difficult to have all actuation in the hand, so using tendon transmission allows for remote actuation.
-Remote actuation also allows for any form factor, a small dynamixel was chosen to minimize weight and size. 
+Remote actuation also allows for any form factor, a small dynamixel motor was chosen to minimize weight and size. 
 Although a tendon transmission is doable for a revolute joint, a pulley is needed for constant length retraction.
-The bigger problem is joint couping, the rolling joint makes it possible to route wires so that distal joints (far from the palm) aren't coupled to proximal (close to palm) joints.
+The bigger problem is joint coupling, the rolling joint makes it possible to route wires so that distal joints (far from the palm) aren't coupled to proximal (close to palm) joints.
 
 
-The rolling joint and how it solves the wire coupling problem is shown below.
+The rolling joint and how it solves the wire coupling problem are shown below.
 
 <img src="/website/assets/images/32HandRolling.gif" alt="RolingJointAnimation" width="400"/>
 
@@ -119,9 +120,9 @@ The rolling joint and how it solves the wire coupling problem is shown below.
 ---
 ### First Prototype
 
-This first version was a good testing ground for a couple of ideas that will be improved upon in future version.
+This first version was a good testing ground for a couple of ideas that will be improved upon in future versions.
 All 6 motors were built into the palm, it was as compact as it could get, so adding another actuator would require expanding off the hand.
-Each finger has a different number of actuator for better specialization.
+Each finger has a different number of actuators for better specialization.
 A spring was used as the antagonistic tendon to restore the hand to the resting position. 
 
 <img src="/website/assets/images/34hand1.jpg" alt="hand1"/>
@@ -130,7 +131,7 @@ A cad of the hand model:
 
 <div class="stlwv2-model" data-model-url="/website/assets/models/TRIHand1_1.STL"></div>
 
-The free motion control using a control glove through arduino and logging through matlab. 
+The free motion control uses a control glove through Arduino and logging through Matlab. 
 
 <img src="/website/assets/images/37Hand1Free.gif" alt="hand1" width="500"/>
 
@@ -156,15 +157,15 @@ The arduino also reports the joint position and current (both commanded and actu
 
 In the second prototype, many changes were implemented from the lessons learned from the first.
 Physically, it is more reactive and robust with less friction (although that came at the cost of more pulleys and complexity)
-The bandwidth and speed of the hand increased quite a lot as the electronics was upgraded from an arduino to a STM microcontroller.
+The bandwidth and speed of the hand increased quite a lot as the electronics were upgraded from an Arduino to an STM microcontroller.
 In addition, the fingertips are easily exchangeable to fit the new sensors I have designed (see page for more details).
 
 <img src="/website/assets/images/311Upgrades.jpg" alt="upgrades" width="600" >
 
 <div class="stlwv2-model" data-model-url="/website/assets/models/TRIHand2.STL"></div>
 
-The tendon routing was quite intricate to design, especially for the thumb that have 3 dof with an abduction joint not in plane as the distal and proximal phalange.
-The pictures below show the 2 pair of wires in the thumb.
+The tendon routing was quite intricate to design, especially for the thumb that has 3 DOF with an abduction joint not in-plane as the distal and proximal phalange.
+The pictures below show the 2 pairs of wires in the thumb.
 The red and green wires are the pair for the distal phalange that has to travel through the abduction joint and proximal phalange.
 The light red and light green wires are the pair for the proximal phalange that only has to travel through the abduction joint.
 
@@ -174,13 +175,13 @@ The light red and light green wires are the pair for the proximal phalange that 
 <img src="/website/assets/images/3HandCable4.JPG" alt="cable" width="600" >
 
 Below are the videos for the experiments.
-The hand and arm was control using a human operator via teleoperation, the limited dexterity of the hand was more of a function of the user's (which was me) inability to coordinate that many DOF well without any haptic feedback.
+The hand and arm were controlled using a human operator via teleoperation, the limited dexterity of the hand was more of a function of the user's (which was me) inability to coordinate that many DOF well without any haptic feedback.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/WFKvJfAqSUY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/_ziXoVCXk-w" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-In addition to tele-operation, the hand's low friction and motor backdrivability has inspired some possible exploration in proprioception.
+In addition to teleoperation, the hand's low friction and motor backdrivability have inspired some possible exploration in proprioception.
 In the test videos below, the hand is sensing the external forces through the current readings at the motor (hard to see in the first video but the left middle graph on the Matlab interface has jolts corresponding to the touches).
 Using this, a very rough reflex can be created to automatically close when detecting contact (a possible area for more research exploration in the future).
 
