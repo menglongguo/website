@@ -91,6 +91,7 @@ The demo requires high frequency sensing to avoid collisions that would perturb 
 A big portion of the process was the troubleshooting aspect as most of the existing system hasn't been continued as the last student had graduated.
 To manage the new and old bugs that appeared was good documentation and data analysis.
 Below are some of the more challenging problems to troubleshoot.
+
 <br>
 During the beginning of the testing, I discovered that the sensor values are depreciating over time and usage.
 In this picture below, the top shows the graph of fingertip forces and the bottom a graph of pressure from the 8 sensors on 1 fingertip sensor.
@@ -109,17 +110,15 @@ Compare that to the one a month later:
 
 From the distribution, we can see the one from a month earlier was much smoother, giving great resolution in the data, compared to the one from a month later.
 After investigation, the issue was that this resulted from us removing a protective covering (shown below) from the sensor in order for the elastomer to make better contact the sensing element.
-<img src="/website/assets/images/44BMP388.JPG" alt="process" width="650"/>
+<img src="/website/assets/images/45BMP388.JPG" alt="process" width="650"/>
 
 This was reveal after inspection through a microscope of a dissected sensor, you can see that the wires to the piezo-electric element was damaged over use.
 <img src="/website/assets/images/44CloseupWires.jpg" alt="process" width="650"/>
 This was fixed by replacing the pressure sensor with a model that has a bigger hole so that the elastomer could achieve gould contact without taking the protective covering off.
-<img src="/website/assets/images/44BMP384.jpg" alt="process" width="650"/>
+<img src="/website/assets/images/45BMP384.jpg" alt="process" width="650"/>
 
-
-
-
-wire saga
+---
+Another issue
 
 new material saga
 
