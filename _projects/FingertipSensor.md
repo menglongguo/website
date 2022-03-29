@@ -5,6 +5,7 @@ order: 105
 stlwv2_models: yes
 type: research2
 ---
+<img src="/website/assets/images/40Cover.JPG" alt="process" width="650"/>
 
 Alongside my main research project (the Robotic Hand), I continued the current project on a fingertip sensor.
 The motivation of the project was to develop a sensor to be mounted at the end of a robotic hand/end-effector that can sense the direction of external forces and the location of the contact.
@@ -59,7 +60,9 @@ As a result, it gave a lot of opportunities to improve the process along with a 
 ### Plans for future sensor
 
 The half-sphere design is quite useful in many applications (see below) but it can be augmented for more sensing area.
-This new design has around 2.5 times more sensing area and 
+This new design has around 2.5 times more sensing area than the current design.
+This allows for more surface to sense contact and manipulate objects.
+An initial prototype was made from plastic for test, the future ones will be made with an aluminum base for better tolerancing and mass-manufacturability.
 
 <img src="/website/assets/images/43Sphere1.JPG" alt="process" width="650"/>
 <img src="/website/assets/images/43Sphere2.jpg" alt="process" width="650"/>
@@ -69,16 +72,26 @@ This new design has around 2.5 times more sensing area and
 ---
 ### Applications
 
-(Talk about finger magnet)
+This sesnsor's high frequency bandwidth and sensing capabilities allows it for many possible applications in manipulation.
+In the first video, the finger is acting as a virtual magnet as it attempts to maintain a force of 3 newtons in the direction of contact.
+The effect is a very fast contact following demo that can lead to fast in-hand object manipulation with coordination with another finger and sensor.
+
 <iframe width="560" height="315" src="https://www.youtube.com/embed/j2KS7hLpRJE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-(talk about regrasp)
-<iframe width="560" height="315" src="https://www.youtube.com/embed/zCNUWmhFmEU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+This demo is work done by [Elijah Stanger-Jones](https://www.linkedin.com/in/elijah-stanger-jones-216b10126/) and Andrew SaLatous, that uses the sensor to do rapid regrasping.
+The experiment is set up so the robot reaches forward to grasp without seeing the object using vision.
+When it contacts the cylindrical shape, the program calculates the direction of the contact and automatically position the hand to antipodal points.
+The demo requires high frequency sensing to avoid collisions that would perturb or damage the environment, the video below is slowed down to 1/8 the actual speed.
 
-(future stuff)
+<iframe width="560" height="315" src="https://www.youtube.com/embed/zCNUWmhFmEU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ---
 ### Troubleshooting
+
+A big portion of the process was the troubleshooting aspect as most of the existing system hasn't been continued as the last student had graduated.
+To manage the new and old bugs that appeared was good documentation and data analysis.
+Below are some of the more challenging problems to troubleshoot.
+
 
 wire saga
 
