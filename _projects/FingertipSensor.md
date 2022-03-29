@@ -110,18 +110,37 @@ Compare that to the one a month later:
 
 From the distribution, we can see the one from a month earlier was much smoother, giving great resolution in the data, compared to the one from a month later.
 After investigation, the issue was that this resulted from us removing a protective covering (shown below) from the sensor in order for the elastomer to make better contact the sensing element.
-<img src="/website/assets/images/45BMP388.JPG" alt="process" width="650"/>
+<img src="/website/assets/images/45BMP388.JPG" alt="process" width="400"/>
 
 This was reveal after inspection through a microscope of a dissected sensor, you can see that the wires to the piezo-electric element was damaged over use.
 <img src="/website/assets/images/44CloseupWires.jpg" alt="process" width="650"/>
 This was fixed by replacing the pressure sensor with a model that has a bigger hole so that the elastomer could achieve gould contact without taking the protective covering off.
-<img src="/website/assets/images/45BMP384.jpg" alt="process" width="650"/>
+<img src="/website/assets/images/45BMP384.jpg" alt="process" width="400"/>
 
 ---
-Another issue
+Another issue I found was that the material of the gripper slowly changes over time.
+Realizing that this was most likely the degradation of the polyurethane material, I purchased a new batch and did some testing.
+Although you can feel that the older material was more compliant and took longer to bounce back (more hysteresis), its best to quantify this.
 
-new material saga
+<br>
+I left a weight on the gripper for ~20 seconds and then took it off to plot the change in sensor value.
+In the graph, we can see that the newer material took .4 seconds for the values to drop back compared to the .85 seconds for the older material.
+The older material took even longer to fully restore to the non-load value (3.5 seconds vs 0.8 seconds).
+As the gripper will be used to exert sustained forces and make rapid contacts, this hysteresis was a huge problem.
+Luckily, the fix is simply to watch the shelf-life of the material and benchmark the hysteresis.
 
+<img src="/website/assets/images/46Hyst.jpg" alt="process" width="650"/>
+
+Although the new material fixed the hysteresis problem, I have found that the newer fingertip sensor had many dead values.
+Of the 8 pressure sensors on each fingertip, some would not respond to pressures even though they are fully functioning.
+After thorough testing and a dissection of the new sensors, I found that the new material was not seeping into the pressure sensor and making contact.
+Funnily enough, the old material was much less hydrophobic and was able to squeeze into the hole in the pressure sensor, avoiding this problem.
+
+I peeled off the polyurethane to examine the contact between the pressure sensor and the rubber.
+In the image below, you can see that the newer material (on left) does not form a mushroom cap like the older material, meaning it does not fully seep into the pressure sensor.
+The way that this was fixed was to de-gas (the process of vacuuming out the air that helps draw the material into cavities) for much longer (20 min vs 5 min) to ensure the new material flows better.
+
+<img src="/website/assets/images/47hydrophobiciity.JPG" alt="process" width="650"/>
 
 
 
