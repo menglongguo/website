@@ -3,7 +3,7 @@ title: Fingertip Sensor for Haptic Manipulation
 year: Spring 21  - Present
 order: 105
 stlwv2_models: yes
-type: research2
+type: research
 ---
 <img src="/website/assets/images/40Cover.JPG" alt="process" width="650"/>
 
